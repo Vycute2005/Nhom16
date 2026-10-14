@@ -1,0 +1,422 @@
+[
+    {
+        "id":  "dinh-doc-lap",
+        "name":  "Dinh Độc Lập",
+        "image_url":  "https://live.staticflickr.com/4789/40704372892_e6d912b390_b.jpg",
+        "history":  "Di tích lịch sử nổi tiếng, biểu tượng của TP.HCM.",
+        "culture":  "Di tích lịch sử",
+        "address":  "Thành phố Hồ Chí Minh",
+        "latitude":  10.7769,
+        "longitude":  106.6953
+    },
+    {
+        "id":  "nha-tho-duc-ba",
+        "name":  "Nhà thờ Đức Bà",
+        "image_url":  "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxNjAzNTUxLWltYWdlLWt3dnhyaXhpLWt3dnlucWN6LmpwZw.jpg",
+        "history":  "Nhà thờ mang phong cách kiến trúc phương Tây và là điểm du lịch thu hút.",
+        "culture":  "Nhà thờ",
+        "address":  "Thành phố Hồ Chí Minh",
+        "latitude":  10.7797,
+        "longitude":  106.6992
+    },
+    {
+        "id":  "cho-ben-thanh",
+        "name":  "Chợ Bến Thành",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/2/2a/Produce_in_Ben_Thanh_Market_-_Ho_Chi_Minh_City%2C_Vietnam_-_DSC01093.JPG",
+        "history":  "Chợ truyền thống nổi tiếng với ẩm thực và văn hóa TP.HCM.",
+        "culture":  "Chợ",
+        "address":  "Thành phố Hồ Chí Minh",
+        "latitude":  10.772,
+        "longitude":  106.698
+    },
+    {
+        "id":  "buu-dien-thanh-pho",
+        "name":  "Bưu điện Thành phố",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/9/96/20190923_Saigon_Central_Post_Office-4.jpg",
+        "history":  "Công trình kiến trúc cổ điển nổi tiếng của thành phố.",
+        "culture":  "Công trình kiến trúc",
+        "address":  "Thành phố Hồ Chí Minh",
+        "latitude":  10.7791,
+        "longitude":  106.6992
+    },
+    {
+        "id":  "cu-chi-tunnels",
+        "name":  "Củ Chi Tunnels",
+        "image_url":  "https://live.staticflickr.com/7390/10037533016_e7d605fde2_b.jpg",
+        "history":  "Khu di tích lịch sử và một điểm tham quan hấp dẫn gần TP.HCM.",
+        "culture":  "Di tích lịch sử",
+        "address":  "Thành phố Hồ Chí Minh",
+        "latitude":  11.2415,
+        "longitude":  106.4186
+    },
+    {
+        "id":  "vuon-tao-dan",
+        "name":  "Vườn Tao Đàn",
+        "image_url":  "assets/images/places/vuon-tao-dan.jpg",
+        "history":  "Khu công viên xanh với không gian thư giãn ở trung tâm thành phố.",
+        "culture":  "Công viên",
+        "address":  "Thành phố Hồ Chí Minh",
+        "latitude":  10.7825,
+        "longitude":  106.7005
+    },
+    {
+        "id":  "bao-tang-chung-tich-chien-tranh",
+        "name":  "Bảo tàng Chứng tích chiến tranh",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/e/e3/Tank_Turret_at_War_Remnants_Museum%2C_Saigon_%289981691993%29.jpg",
+        "history":  "Bảo tàng lịch sử phản ánh những sự kiện của chiến tranh Việt Nam.",
+        "culture":  "Bảo tàng",
+        "address":  "Thành phố Hồ Chí Minh",
+        "latitude":  10.779,
+        "longitude":  106.69
+    },
+    {
+        "id":  "khu-du-lich-thao-cam-vien",
+        "name":  "Khu du lịch Thảo Cầm Viên",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/9/92/Homalomena_occulta_-_Saigon_Zoo_and_Botanical_Gardens_-_Ho_Chi_Minh_City%2C_Vietnam_-_DSC01251.JPG",
+        "history":  "Một điểm tham quan thú vị cho gia đình và du khách.",
+        "culture":  "Khu du lịch",
+        "address":  "Thành phố Hồ Chí Minh",
+        "latitude":  10.7878,
+        "longitude":  106.7121
+    },
+    {
+        "id":  "pho-di-bo-nguyen-hue",
+        "name":  "Phố đi bộ Nguyễn Huệ",
+        "image_url":  "assets/images/places/pho-di-bo-nguyen-hue.jpg",
+        "history":  "Không gian đi bộ trung tâm thành phố, nổi bật với quảng trường, đài phun nước và các hoạt động ngoài trời.",
+        "culture":  "Phố đi bộ",
+        "address":  "Đường Nguyễn Huệ, Quận 1, Thành phố Hồ Chí Minh",
+        "latitude":  10.7741,
+        "longitude":  106.7031
+    },
+    {
+        "id":  "nha-hat-thanh-pho-ho-chi-minh",
+        "name":  "Nhà hát Thành phố Hồ Chí Minh",
+        "image_url":  "assets/images/places/nha-hat-thanh-pho-ho-chi-minh.jpg",
+        "history":  "Công trình kiến trúc Pháp cổ điển, đồng thời là địa điểm biểu diễn nghệ thuật của thành phố.",
+        "culture":  "Công trình kiến trúc",
+        "address":  "Đường Đồng Khởi, Quận 1, Thành phố Hồ Chí Minh",
+        "latitude":  10.7769,
+        "longitude":  106.7031
+    },
+    {
+        "id":  "toa-nha-bitexco-financial-tower",
+        "name":  "Tòa nhà Bitexco Financial Tower",
+        "image_url":  "https://live.staticflickr.com/7292/9982033394_4df0b015e5_b.jpg",
+        "history":  "Tòa nhà biểu tượng với đài quan sát Saigon Skydeck nhìn ra trung tâm thành phố.",
+        "culture":  "Công trình kiến trúc",
+        "address":  "Đường Hải Triều, Quận 1, Thành phố Hồ Chí Minh",
+        "latitude":  10.7717,
+        "longitude":  106.7042
+    },
+    {
+        "id":  "landmark-81",
+        "name":  "Landmark 81",
+        "image_url":  "https://live.staticflickr.com/963/42018982531_d1de4eeda3_b.jpg",
+        "history":  "Tòa nhà cao tầng nổi bật với khu mua sắm, ẩm thực và đài quan sát.",
+        "culture":  "Khu vui chơi / mua sắm",
+        "address":  "Khu đô thị Vinhomes Central Park, Bình Thạnh, Thành phố Hồ Chí Minh",
+        "latitude":  10.7951,
+        "longitude":  106.7218
+    },
+    {
+        "id":  "bao-tang-my-thuat-thanh-pho-ho-chi-minh",
+        "name":  "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh",
+        "image_url":  "assets/images/places/bao-tang-my-thuat-thanh-pho-ho-chi-minh.jpg",
+        "history":  "Bảo tàng nghệ thuật trong một biệt thự cổ, trưng bày mỹ thuật Việt Nam qua nhiều thời kỳ.",
+        "culture":  "Bảo tàng",
+        "address":  "Đường Phó Đức Chính, Quận 1, Thành phố Hồ Chí Minh",
+        "latitude":  10.7684,
+        "longitude":  106.6992
+    },
+    {
+        "id":  "bao-tang-thanh-pho-ho-chi-minh",
+        "name":  "Bảo tàng Thành phố Hồ Chí Minh",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ho_Chi_Minh_Museum%2C_Saigon_%281%29.jpg",
+        "history":  "Bảo tàng giới thiệu lịch sử, văn hóa và quá trình phát triển của thành phố.",
+        "culture":  "Bảo tàng",
+        "address":  "Đường Lý Tự Trọng, Quận 1, Thành phố Hồ Chí Minh",
+        "latitude":  10.7767,
+        "longitude":  106.6994
+    },
+    {
+        "id":  "nha-tho-tan-dinh",
+        "name":  "Nhà thờ Tân Định",
+        "image_url":  "assets/images/places/nha-tho-tan-dinh.jpg",
+        "history":  "Nhà thờ có mặt tiền màu hồng đặc trưng, là một trong những công trình kiến trúc nổi bật của thành phố.",
+        "culture":  "Nhà thờ",
+        "address":  "Đường Hai Bà Trưng, Quận 3, Thành phố Hồ Chí Minh",
+        "latitude":  10.7902,
+        "longitude":  106.6917
+    },
+    {
+        "id":  "chua-vinh-nghiem",
+        "name":  "Chùa Vĩnh Nghiêm",
+        "image_url":  "assets/images/places/chua-vinh-nghiem.jpg",
+        "history":  "Ngôi chùa lớn với kiến trúc truyền thống Việt Nam và tháp đá nhiều tầng.",
+        "culture":  "Chùa",
+        "address":  "Đường Nam Kỳ Khởi Nghĩa, Quận 3, Thành phố Hồ Chí Minh",
+        "latitude":  10.7892,
+        "longitude":  106.6848
+    },
+    {
+        "id":  "chua-buu-long",
+        "name":  "Chùa Bửu Long",
+        "image_url":  "assets/images/places/chua-buu-long.jpg",
+        "history":  "Ngôi chùa có kiến trúc chịu ảnh hưởng Phật giáo Nam tông, nằm trong không gian yên tĩnh gần sông Đồng Nai.",
+        "culture":  "Chùa",
+        "address":  "Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+        "latitude":  10.8442,
+        "longitude":  106.7874
+    },
+    {
+        "id":  "cong-vien-van-hoa-dam-sen",
+        "name":  "Công viên văn hóa Đầm Sen",
+        "image_url":  "assets/images/places/cong-vien-van-hoa-dam-sen.jpg",
+        "history":  "Khu vui chơi giải trí với công viên nước, trò chơi và các hoạt động phù hợp cho gia đình.",
+        "culture":  "Khu vui chơi",
+        "address":  "Đường Hòa Bình, Quận 11, Thành phố Hồ Chí Minh",
+        "latitude":  10.7756,
+        "longitude":  106.6358
+    },
+    {
+        "id":  "khu-du-lich-suoi-tien",
+        "name":  "Khu du lịch Suối Tiên",
+        "image_url":  "assets/images/places/khu-du-lich-suoi-tien.jpg",
+        "history":  "Công viên giải trí theo chủ đề văn hóa dân gian với nhiều trò chơi và khu tham quan.",
+        "culture":  "Khu vui chơi",
+        "address":  "Xa lộ Hà Nội, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+        "latitude":  10.8677,
+        "longitude":  106.8024
+    },
+    {
+        "id":  "pho-tay-bui-vien",
+        "name":  "Phố Tây Bùi Viện",
+        "image_url":  "assets/images/places/pho-tay-bui-vien.jpg",
+        "history":  "Khu phố sôi động với nhiều quán ăn, cà phê và hoạt động về đêm.",
+        "culture":  "Phố du lịch",
+        "address":  "Đường Bùi Viện, Quận 1, Thành phố Hồ Chí Minh",
+        "latitude":  10.7677,
+        "longitude":  106.6931
+    },
+    {
+        "id":  "ben-bach-dang",
+        "name":  "Bến Bạch Đằng",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/f/fa/%27Bitexco_Financial_Tower%27_as_seen_from_Bach_Dang_wharf..JPG",
+        "history":  "Không gian ven sông Sài Gòn có công viên, bến tàu và tầm nhìn về trung tâm thành phố.",
+        "culture":  "Công viên / bến tàu",
+        "address":  "Đường Tôn Đức Thắng, Quận 1, Thành phố Hồ Chí Minh",
+        "latitude":  10.7726,
+        "longitude":  106.7061
+    },
+    {
+        "id":  "bao-tang-ho-chi-minh-ben-nha-rong",
+        "name":  "Bảo tàng Hồ Chí Minh - Bến Nhà Rồng",
+        "image_url":  "assets/images/places/bao-tang-ho-chi-minh-ben-nha-rong.jpg",
+        "history":  "Di tích lịch sử bên sông Sài Gòn, nơi trưng bày tư liệu về cuộc đời và sự nghiệp của Chủ tịch Hồ Chí Minh.",
+        "culture":  "Bảo tàng / di tích lịch sử",
+        "address":  "Đường Nguyễn Tất Thành, Quận 4, Thành phố Hồ Chí Minh",
+        "latitude":  10.7688,
+        "longitude":  106.7061
+    },
+    {
+        "id":  "fansipan-sapa",
+        "name":  "Fansipan, Sapa",
+        "image_url":  "https://bluediamondretreat.com/wp-content/uploads/2026/02/dinh-fansipan.jpg",
+        "history":  "Đỉnh núi Fansipan hay còn gọi là Phan Xi Păng, danh lam thắng cảnh miền Bắc này được mệnh danh là “nóc nhà Đông Dương”, với độ cao 3.143 m so với mực nước biển. Ngọn núi hùng vĩ này nằm ở trung tâm dãy Hoàng Liên Sơn, cách thị trấn Sapa khoảng 9 km về phía Tây Nam. Với những ai yêu thích phiêu lưu, hành trình chinh phục Fansipan luôn là một hành trình thú vị không thể bỏ qua. Trên con đường tiến dần lên đỉnh núi, ở độ cao khoảng 2.400 m, gió, mây và rừng cây như hòa quyện vào nhau, chỉ cần đưa tay ra là ngỡ như có thể chạm vào mây trời.",
+        "culture":  "Thời điểm đẹp nhất đi danh lam thắng cảnh Sapa Fansipan là tháng 10 – 11 hoặc tháng 2 – 3, nếu may mắn đi vào cuối tháng 3, bạn còn có thể bắt gặp rừng đỗ quyên nở rộ, đẹp như một bức tranh giữa mây trời. Thế nhưng Fansipan luôn đẹp theo từng mùa trong năm, mỗi thời điểm lại mang đến một trải nghiệm khác biệt. Mùa xuân và mùa hạ, những cánh rừng đỗ quyên nở đỏ rực, nhuộm màu cả sườn núi. Mùa thu, ruộng bậc thang chín vàng trải dài dưới chân núi tạo nên bức tranh yên bình. Mùa đông, Fansipan khoác lên mình lớp sương mù và biển mây Sapa.\n\nNếu bạn ưa mạo hiểm, muốn cảm nhận trọn vẹn cảm giác chinh phục “nóc nhà Đông Dương” bằng chính đôi chân của mình thì có thể leo bộ từ Vườn quốc gia Hoàng Liên lên đỉnh Fansipan. Hoặc để bạn vẫn muốn lên đỉnh núi nhưng với hành trình nhẹ nhàng hơn, bạn có thể đi cáp treo chỉ 15 phút để ngắm nhìn vẻ đẹp toàn cảnh Sapa từ trên cao. Tuyến cáp treo dài 6292,5 mét được xác nhận kỷ lục Guinness là tuyến cáp treo ba dây dài nhất thế giới.",
+        "address":  "Sapa, Phường Sa Pa, Tỉnh Lào Cai, Việt Nam",
+        "latitude":  22.340505,
+        "longitude":  103.8457002
+    },
+    {
+        "id":  "cao-nguyen-da-dong-van",
+        "name":  "Cao nguyên đá Đồng Văn",
+        "image_url":  "https://bluediamondretreat.com/wp-content/uploads/2026/02/cac-ngoi-nha-tai-cao-nguyen-da-dong-van.jpg",
+        "history":  "Khi đặt chân đến danh lam thắng cảnh Cao nguyên đá Đồng Văn nổi tiếng, du khách sẽ cảm nhận rõ nét vẻ đẹp khắc nghiệt nhưng đầy cuốn hút của miền đá nơi địa đầu Tổ quốc. Nơi đây được UNESCO công nhận là Công viên địa chất toàn cầu từ năm 2010, trải rộng qua bốn huyện Quản Bạ, Yên Minh, Mèo Vạc và Đồng Văn ở Hà Giang cũ, nay thuộc xã Đồng Văn, tỉnh Tuyên Quang. Với địa hình núi đá vôi chiếm phần lớn diện tích, khi đến đây du khách sẽ bắt gặp những dãy đá xám dựng đứng, những nương ngô bám vào sườn núi và các bản làng người Mông nép mình sau những hàng rào đá thủ công.",
+        "culture":  "Cao nguyên đá Đồng Văn là nơi lí tưởng cho những ai yêu thích cung đường đèo và trải nghiệm khám phá. Nơi đây còn có cung đường phượt xe máy nổi tiếng Hà Giang loops dài khoảng 350km, đi qua các địa danh hùng vĩ như Quản Bạ, Đồng Văn, Mèo Vạc được nhiều du khách ưa mạo hiểm yêu thích. Khi chinh phục đèo Mã Pí Lèng, du khách có thể phóng tầm mắt ngắm sông Nho Quế uốn lượn như dải lụa xanh dưới vực sâu. Bạn có thể ghé thăm phố cổ Đồng Văn, cột cờ Lũng Cú, Cổng Trời Quản Bạ, tham gia chợ phiên vùng cao và thưởng thức ẩm thực bản địa. Điểm đến này phù hợp với những ai yêu du lịch trải nghiệm, thích tự do di chuyển, khám phá văn hóa bản địa.\n\nCao nguyên đá Hà Giang đẹp quanh năm, mỗi mùa mang một sắc thái riêng. Mùa xuân từ tháng 1 đến tháng 3 là thời điểm hoa đào, hoa mận, hoa lê nở rộ, phủ sắc trắng hồng lên những bản làng. Mùa hè từ tháng 5 – tháng 6, vùng cao nguyên đá khoác lên mình màu xanh tươi mới của ngô, lanh và rừng sa mộc. Đặc biệt là mùa thu từ tháng 9 đến tháng 11 được xem là thời điểm lý tưởng nhất để du lịch Hà Giang. Vào độ tháng 10 đến tháng 11 là mùa hoa tam giác mạch nở rộ, nhuộm hồng cả cao nguyên, thích hợp cho những ai thích khám phá và check-in với thiên nhiên.",
+        "address":  "Huyện Đồng Văn, Tỉnh Tuyên Quang, Việt Nam",
+        "latitude":  23.2406541,
+        "longitude":  105.262299
+    },
+    {
+        "id":  "vinh-ha-long",
+        "name":  "Vịnh Hạ Long",
+        "image_url":  "https://bluediamondretreat.com/wp-content/uploads/2026/02/vinh-ha-long-1.jpg",
+        "history":  "Vịnh Hạ Long nằm ở phía Đông Bắc của Việt Nam, thuộc địa phận tỉnh Quảng Ninh, cách thủ đô Hà Nội 165 km. Khi đến đây, du khách sẽ bị cuốn hút bởi khung cảnh biển đảo kỳ vĩ, nơi có 1969 hòn đảo đá vôi vươn mình giữa làn nước xanh ngọc phẳng lặng. Được UNESCO công nhận là Di sản Thiên nhiên Thế giới vào năm 1994 và nhiều lần mở rộng giá trị, Vịnh Hạ Long là danh lam thắng cảnh miền bắc Việt Nam nổi tiếng hàng đầu mà du khách không thể bỏ qua khi đi du lịch.",
+        "culture":  "Trên hành trình tham quan vịnh, du khách sẽ lướt qua hàng trăm đảo đá với hình thù sinh động, từ hòn Gà Chọi, hòn Lư Hương đến hòn Cánh Buồm, mỗi đảo đều gợi hình ảnh riêng theo trí tưởng tượng của mỗi người. Bên trong các đảo đá là hệ thống hang động nổi tiếng như hang Sửng Sốt, động Thiên Cung, hang Đầu Gỗ, nơi ánh sáng, nhũ đá và không gian tự nhiên hòa quyện, mang lại trải nghiệm thú vị cho những ai từng ghé qua.\n\nTừ tháng 4 đến tháng 6 được xem là khoảng thời gian đẹp nhất để khám phá Vịnh Hạ Long. Lúc này, thời tiết ấm áp, nắng vàng dịu nhẹ, biển trong xanh cùng bầu trời quang đãng rất thuận lợi cho các hoạt động tham quan, nghỉ dưỡng hay vui chơi cùng gia đình và bạn bè.\n\nNếu chưa có kinh nghiệm đi Vịnh Hạ Long thì cũng đừng ngại, hiện nay có rất nhiều tour tham quan đa dạng mức giá tại Vịnh Hạ Long. Hiện nay, ngoài các tour tham quan trong ngày, nhiều du khách lựa chọn du thuyền Hạ Long ngủ đêm trên vịnh để tận hưởng trọn vẹn nhịp sống biển đảo. Thức dậy giữa vịnh, ngắm bình minh, chèo kayak, tắm biển hay thư giãn trên boong tàu mang đến cảm giác nghỉ dưỡng đúng nghĩa. Với những ai muốn chiêm ngưỡng toàn cảnh từ trên cao, bạn có thể lựa chọn dịch vụ bay thủy phi cơ.",
+        "address":  "Vịnh Hạ Long, Thành phố Quảng Ninh, Việt Nam",
+        "latitude":  20.9084384,
+        "longitude":  107.0682782
+    },
+    {
+        "id":  "chua-huong",
+        "name":  "Chùa Hương",
+        "image_url":  "assets/images/places/chua-huong.jpg",
+        "history":  "Đến với Chùa Hương, du khách không đơn thuần là đi tham quan chùa chiền, mà còn trải qua một hành trình vãn cảnh, tận hưởng vẻ đẹp sông nước, núi rừng yên bình của vùng Hương Sơn.Nằm bên bờ sông Đáy, thuộc xã Hương Sơn và cách trung tâm Hà Nội khoảng 55km, Chùa Hương mang đến cảm giác tách biệt khỏi nhịp sống đô thị, nơi con người có thể chậm lại để tìm sự an yên trong tâm hồn.",
+        "culture":  "Hành trình tham quan chùa Hương thường bắt đầu bằng chuyến thuyền xuôi 3km theo suối Yến từ bến Đục. Ngồi trên thuyền, du khách được ngắm nhìn những cánh đồng lúa xanh mướt, núi đá vôi trùng điệp và không gian làng quê yên bình. Chùa Hương nổi tiếng với động Hương Tích, còn gọi là “Chùa Trong”, nơi thờ tượng Phật Bà Quan Âm bằng đá xanh có niên đại từ cuối thế kỷ XVIII. Leo qua những bậc đá và bước vào lòng động, du khách sẽ cảm nhận rõ sự linh thiêng và tĩnh lặng của không gian được mệnh danh là “Nam Thiên Đệ Nhất Động”. Bên cạnh đó, các công trình như chùa Thiên Trù, chùa Giải Oan, chùa Thanh Sơn hay động Long Vân góp phần tạo nên một hành trình tâm linh trọn vẹn, kết hợp giữa leo núi, vãn cảnh và lễ Phật.\n\nVào mùa lễ hội đầu năm, Chùa Hương còn mang đến không khí sôi động với thuyền bè tấp nập và các hoạt động văn hóa truyền thống. Lễ hội Chùa Hương diễn ra từ tháng Giêng đến tháng Ba âm lịch, đây là lễ hội kéo dài nhất Việt Nam, là thời điểm đón rất nhiều Phật tử từ khắp cả nước.",
+        "address":  "chùa hương, Đường tỉnh 376, Hào Xuyên, 17707, Việt Nam",
+        "latitude":  20.8944143,
+        "longitude":  106.0435762
+    },
+    {
+        "id":  "tam-coc-bich-dong-ninh-binh",
+        "name":  "Tam Cốc – Bích Động, Ninh Bình",
+        "image_url":  "assets/images/places/tam-coc-bich-dong-ninh-binh.jpg",
+        "history":  "Tam Cốc – Bích Động nằm trên địa bàn tỉnh Ninh Bình, cách trung tâm Hà Nội khoảng 100km về phía Nam, rất thuận tiện để kết hợp trong các hành trình du lịch ngắn ngày từ thủ đô. Khu danh thắng có tổng diện tích khoảng 350,3 ha, bao gồm hệ thống núi đá vôi, sông Ngô Đồng, hang động tự nhiên và các làng quê ven sông.",
+        "culture":  "Một trong những trải nghiệm thú vị nhất của Tam Cốc – Bích Động là trải nghiệm ngồi thuyền xuôi theo dòng sông Ngô Đồng, lần lượt đi qua quần thể Tam Cốc gồm hang Cả, hang Hai và hang Ba, mở ra khung cảnh núi non soi bóng mặt nước và cánh đồng lúa trải dài hai bên bờ. Bên cạnh đó, Xuyên Thủy Động, cùng Động Thiên Hương và Động Tiên mang đến trải nghiệm khám phá hang động nhẹ nhàng, phù hợp cho du khách yêu thiên nhiên và tận hưởng cảnh đẹp Việt Nam một cách chậm rãi.\n\nBên cạnh cảnh quan tự nhiên, Tam Cốc – Bích Động còn hấp dẫn du khách bởi hệ thống di tích lịch sử và tâm linh gắn liền với vùng đất Hoa Lư xưa. Đền Thái Vi là điểm dừng chân nổi tiếng, nằm giữa thung lũng núi đá yên tĩnh, thờ các vị vua và tướng lĩnh triều Trần. Chùa Bích Động – một ngôi chùa được xây dựng từ năm 1428 trên sườn núi đá vôi Trường Yên, hiện vẫn lưu giữ chuông đồng thời Lê Thái Tổ cùng các tháp mộ cổ. Đến đây, bạn có thể tận hưởng không khí thanh tĩnh và trong lành, đồng thời hiểu thêm về kiến trúc, tín ngưỡng và đời sống văn hóa truyền thống của người dân Bắc Bộ.\n\nThời điểm du lịch Tam Cốc – Bích Động đẹp nhất là vào mùa lúa chín, thường rơi vào khoảng giữa tháng 5 đến đầu tháng 6. Thời điểm này là mùa lúa chín vàng đang vào vụ, du khách có thể ngồi trên thuyền trên dòng sông chảy ngang những cảnh đồng lúa chín vàng để tận hưởng bức tranh thiên nhiên hữu tình vùng Bắc Bộ.",
+        "address":  "Tam Cốc -Bích Động, Đường tỉnh 478B, Văn Lâm, Phường Nam Hoa Lư, Ninh Hải, Tỉnh Ninh Bình, 43000, Việt Nam",
+        "latitude":  20.2163426,
+        "longitude":  105.937457
+    },
+    {
+        "id":  "tam-dao",
+        "name":  "Tam Đảo",
+        "image_url":  "assets/images/places/tam-dao.jpg",
+        "history":  "Tam Đảo là một danh lam thắng cảnh biển đảo miền Bắc, cách Hà Nội khoảng 70 km. Tên gọi Tam Đảo bắt nguồn từ ba chỏm núi Thạch Bàn, Thiên Thị và Phù Nghĩa nhô lên giữa biển mây, trông như ba hòn đảo giữa bầu trời. Ngày nay, Tam Đảo thuộc tỉnh Phú Thọ và được yêu thích nhờ khí hậu mát mẻ quanh năm cùng cảnh quan thiên nhiên thơ mộng.",
+        "culture":  "Đặt chân đến Tam Đảo, du khách dễ dàng cảm nhận vẻ đẹp đặc trưng của rừng thông xanh bạt ngàn, những triền núi uốn lượn ẩn hiện trong làn sương mờ. Thị trấn mang dáng dấp cổ điển với các ngôi nhà gỗ và công trình kiến trúc mang dấu ấn châu Âu bởi nơi đây được người Pháp xây dựng năm 1904.\n\nQuảng trường Tam Đảo là trung tâm sinh hoạt sôi động của thị trấn, nơi du khách dừng chân dạo chơi, chụp ảnh và tận hưởng nhịp sống chậm giữa sương núi. Bạn cũng có thể tham quan nhà thờ Đá Tam Đảo – một công trình cổ từ thời Pháp thuộc có kiến trúc Gothic, tường đá rêu phong và mái vòm cao, là biểu tượng của Tam Đảo. Nếu yêu thiên nhiên, bạn nhất định phải ghé thăm Thác Bạc. Dòng thác cao hàng chục mét đổ xuống trắng xóa, mang lại không khí mát lành và cảm giác thư giãn giữa núi rừng hoang sơ.\n\nMột trong những trải nghiệm thú vị nhất khi du lịch Tam Đảo là cảm giác bốn mùa trong cùng một ngày. Buổi sáng se lạnh như xuân, trưa nắng nhẹ mang hơi thở mùa hạ, chiều dịu mát như thu và khi đêm xuống, nhiệt độ giảm khiến không khí giống mùa đông. Nhiệt độ trung bình dao động từ 18 – 25°C, rất thích hợp cho các hoạt động nghỉ dưỡng.\n\nKhông chỉ hấp dẫn bởi thiên nhiên, Tam Đảo còn lưu giữ nhiều giá trị văn hóa đặc sắc với hệ thống lễ hội phong phú. Hiện nay, khu vực này có khoảng 44 lễ hội lớn nhỏ được tổ chức quanh năm tại các đền, chùa và làng xã. Tiêu biểu có lễ hội Tây Thiên diễn ra từ ngày 15 – 17 tháng 2 âm lịch và hội vật làng Hà tổ chức vào mùng 7 Tết, thu hút nhiều du khách và người dân địa phương.",
+        "address":  "Tam Đảo, Xã Đại Từ, Tỉnh Thái Nguyên, Việt Nam",
+        "latitude":  21.5354194,
+        "longitude":  105.5936687
+    },
+    {
+        "id":  "vuon-quoc-gia-phong-nha-ke-bang",
+        "name":  "Vườn Quốc gia Phong Nha – Kẻ Bàng",
+        "image_url":  "https://bluediamondretreat.com/wp-content/uploads/2026/02/hang-son-doong.jpg",
+        "history":  "Nếu bạn yêu thiên nhiên kỳ vĩ và những trải nghiệm khám phá hang động, Vườn Quốc gia Phong Nha – Kẻ Bàng là điểm đến không thể bỏ qua khi khám phá những cảnh đẹp Việt Nam. Đây là Di sản Thiên nhiên Thế giới được UNESCO công nhận lần đầu vào năm 2003 và mở rộng giá trị vào năm 2015, nổi bật ở giá trị địa chất, địa mạo và đa dạng sinh học hiếm có.",
+        "culture":  "Phong Nha – Kẻ Bàng là một trong những danh lam thắng cảnh thiên nhiên Việt Nam đặc sắc nhất nằm tại tỉnh Quảng Bình cũ, nay là tỉnh Quảng Trị, với diện tích lõi hơn 123.000 ha trải dài qua rừng núi, sông suối và thung lũng. Điểm làm sự đặc biệt của Phong Nha – Kẻ Bàng chính là hệ thống hang động đá vôi đồ sộ, nơi những dòng sông ngầm lặng lẽ chảy xuyên qua lòng núi và các khối thạch nhũ muôn hình vạn trạng được kiến tạo qua hàng triệu năm. Từ những hang động quen thuộc, dễ tiếp cận như động Phong Nha, động Tiên Sơn, động Thiên Đường, đến các hành trình mạo hiểm như Khám phá Hang Én, Hang Va hay hang Sơn Đoòng – hang động lớn nhất thế giới, mỗi chuyến đi đều mang đến cảm giác choáng ngợp trước sự hùng vĩ và nguyên sơ của thiên nhiên.\n\nKhông chỉ dừng lại ở khám phá hang động, Phong Nha – Kẻ Bàng còn cuốn hút du khách bởi chuỗi trải nghiệm ngoài trời đa dạng: thả mình trên làn nước xanh mát của suối Nước Moọc , trượt zipline và tắm bùn tại Sông Chày – Hang Tối, thử thách bản thân với các trò chơi trên cây tại Ozo Park. Sự đa dạng giữa rừng, núi, sông và hang động đã giúp Phong Nha – Kẻ Bàng thành điểm đến không thể bỏ lỡ cho những ai yêu thiên nhiên, đam mê khám phá và mong muốn chạm đến vẻ đẹp nguyên sơ của tự nhiên.\n\nThời điểm đẹp nhất để khám phá Phong Nha – Kẻ Bàng đó chính là khoảng từ tháng 3 đến tháng 8 hàng năm. Trong thời gian này, trời nắng ráo, nước dòng sông Son có màu xanh lam trong vắt, cảnh sắc núi non nơi đây tựa chốn tiên cảnh. Thời điểm trong mùa hè như từ tháng 4 – tháng 7 cũng rất thích hợp cho các gia đình đến đây nghỉ mát, tắm suối, tham gia các trò chơi ngoài trời sảng khoái.",
+        "address":  "Vườn quốc gia Phong Nha - Kẻ Bàng, Tỉnh Quảng Trị, Việt Nam",
+        "latitude":  17.5552645,
+        "longitude":  106.1123041
+    },
+    {
+        "id":  "thanh-dia-my-son",
+        "name":  "Thánh địa Mỹ Sơn",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/2/27/Group_B-C-D_monuments_of_My_Son_world_heritage_site%2C_Vietnam.jpg",
+        "history":  "Nằm trong thung lũng khép kín thuộc huyện Duy Xuyên, tỉnh Quảng Nam cũ, nay là xã Nam Phước, Thành phố Đà Nẵng, Thánh địa Mỹ Sơn là quần thể đền tháp Chăm Pa cổ quan trọng bậc nhất Việt Nam, từng giữ vai trò trung tâm tôn giáo và văn hóa của vương quốc Chăm Pa trong nhiều thế kỷ. Khu di tích có phạm vi rộng khoảng 2km đường kính, gồm hơn 70 công trình đền tháp được xây dựng liên tục từ thế kỷ IV đến thế kỷ XIII, phản ánh rõ các giai đoạn phát triển khác nhau của nền văn minh Chăm cổ.",
+        "culture":  "Thánh Địa Mỹ Sơn nổi tiếng với kiến trúc đền tháp bằng gạch nung độc đáo và kỹ thuật xây dựng đến nay vẫn còn nhiều bí ẩn. Các công trình tại đây thể hiện rõ 6 phong cách kiến trúc tiêu biểu như Hòa Lai, Mỹ Sơn, Đồng Dương, Po Nagar…, gắn liền với tín ngưỡng thờ thần Siva. Đến với Mỹ Sơn, du khách có thể tản bộ trên con đường cổ rộng khoảng 8m, tham quan các cụm tháp chính, thưởng thức múa Apsara truyền thống, hoặc tìm hiểu đời sống văn hóa Chăm qua các dịp lễ hội như Katê.",
+        "address":  "Thánh địa Mỹ Sơn, Cầu Thẻ - Mỹ Sơn, Xã Thu Bồn, Thành phố Đà Nẵng, Việt Nam",
+        "latitude":  15.7655202,
+        "longitude":  108.1234531
+    },
+    {
+        "id":  "pho-co-hoi-an",
+        "name":  "Phố cổ Hội An",
+        "image_url":  "https://bluediamondretreat.com/wp-content/uploads/2026/02/pho-co-hoi-an-1.jpg",
+        "history":  "Phố cổ Hội An là danh lam thắng cảnh miền trung Việt Nam được công nhận là Di sản Văn hóa Thế giới vào năm 1999. Nằm cách trung tâm thành phố Đà Nẵng khoảng 30km về phía Tây Nam, trước đây thuộc tỉnh Quảng Nam, Hội An là một đô thị cổ có lịch sử hơn 400 năm, nổi tiếng với nhịp sống chậm, không gian yên bình và kiến trúc cổ được bảo tồn gần như nguyên vẹn. Những ngôi nhà mái ngói rêu phong, các con phố nhỏ lát đá và hệ thống đèn lồng nhiều màu sắc tạo nên diện mạo rất riêng, khiến Hội An luôn nằm trong danh sách điểm đến được yêu thích nhất tại Việt Nam.",
+        "culture":  "Dạo bước trong phố cổ, du khách có thể dễ dàng nhận thấy dấu ấn kiến trúc và văn hóa của Việt Nam, Nhật Bản và Trung Quốc qua các công trình như nhà cổ, hội quán, chùa chiền, tiêu biểu là Chùa Cầu – biểu tượng quen thuộc của Hội An. Du khách có thể hòa mình vào không khí của các lễ hội truyền thống, thưởng thức các món ăn địa phương, chèo thuyền thả hoa đăng trên sông, chơi các trò chơi dân gian như bài chòi, hò khoan, hò giã gạo, hoặc đơn giản là tản bộ phố cổ khi lên đèn để cảm nhận trọn vẹn vẻ đẹp của phố cổ.",
+        "address":  "Phố cổ Hội An, Phường Hội An, Hội An, Thành phố Đà Nẵng, 51319, Việt Nam",
+        "latitude":  15.8771291,
+        "longitude":  108.3286631
+    },
+    {
+        "id":  "mui-ne",
+        "name":  "Mũi Né",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/1/1b/%27Crocodile_Meat%27_a_delicacy_in_Mui_Ne_fish_food_restaurants.jpg",
+        "history":  "Mũi Né nằm cách trung tâm thành phố Phan Thiết, tỉnh Bình Thạnh khoảng 22 km về hướng Đông Bắc (nay thuộc tỉnh Lâm Đồng). Mũi Né là một trong những cảnh đẹp Việt Nam có phong cảnh thiên nhiên tuyệt đẹp với những bãi cát trắng trải dài, biển xanh trong và không gian ngập tràn nắng gió miền duyên hải.",
+        "culture":  "Nhắc đến Mũi Né, không thể không nhắc tới đồi cát bay, một hiện tượng thiên nhiên độc đáo đã được Trung tâm Sách Kỷ lục Việt Nam ghi nhận. Đến đây, bạn có thể tham gia nhiều hoạt động thú vị như trượt cát, leo đồi cát hay đơn giản là ngắm hoàng hôn trên nền cát vàng rực rỡ.\n\nBên cạnh đó, ghềnh đá Mũi Né mang vẻ đẹp hùng vĩ với những mũi đá vươn ra biển đón sóng. Giữa bãi đá dài hơn một cây số là những bãi cát nhỏ yên tĩnh, nơi du khách dừng chân ngắm biển, ghé miếu Bà Vàng hay Lăng Ông Thạch Long để cảm nhận nét văn hóa tâm linh đặc trưng của vùng biển. Ngoài ra, bạn cũng có thể tham quan những địa điểm xung quanh Mũi Né như ghé thăm bãi đá Ông Địa, Hải đăng Kê Gà cổ kính hơn 125 năm tuổi, tham quan Lâu đài rượu vang RD, check-in Wonder Hill với các mô hình kiến trúc thu nhỏ, hay vui chơi cùng gia đình tại Wonderland Water Park Phan Thiết.\n\nKhoảng cuối năm là lúc Mũi Né khoe trọn vẻ đẹp của mình với bầu trời trong xanh, nắng nhẹ, biển êm và không khí dễ chịu. Thời tiết thuận lợi giúp du khách thoải mái tắm biển, tham gia các hoạt động ngoài trời và tận hưởng kỳ nghỉ trọn vẹn bên gia đình, bạn bè.",
+        "address":  "Phường Mũi Né, Tỉnh Lâm Đồng, Việt Nam",
+        "latitude":  10.9356073,
+        "longitude":  108.2863836
+    },
+    {
+        "id":  "vuon-quoc-gia-cat-tien",
+        "name":  "Vườn Quốc gia Cát Tiên",
+        "image_url":  "https://upload.wikimedia.org/wikipedia/commons/9/9e/Vietnam_Birding_Tours_-_Vietnam_wildlife_Tours_Cat_Tien_National_Park.png",
+        "history":  "Vườn Quốc gia Cát Tiên nằm trên địa phận hai tỉnh Đồng Nai và Lâm Đồng, sở hữu diện tích gần 72.000ha, là một trong những khu rừng đất thấp ẩm nhiệt đới còn lại tiêu biểu nhất của Việt Nam. Nhờ điều kiện tự nhiên đặc thù, Cát Tiên hình thành hệ sinh thái đa dạng với rừng nguyên sinh, vùng đất ngập nước, sông suối và thảm thực vật phong phú, tạo môi trường sống lý tưởng cho nhiều loài động vật hoang dã. Vì vậy vào năm 2001, Vườn được UNESCO công nhận là khu Dự trữ Sinh quyển Thế giới.",
+        "culture":  "Khi đến với Cát Tiên, du khách có cơ hội trực tiếp quan sát thế giới tự nhiên. Vườn quốc gia hiện ghi nhận hơn 1.700 loài động vật và trên 1.600 loài thực vật, trong đó có nhiều loài quý hiếm và đặc hữu được ghi trong Sách Đỏ như vượn đen má vàng, voọc bạc, voọc chà vá chân đen, cùng các loài lớn như voi rừng. Hệ sinh thái đất ngập nước tại Bàu Sấu cũng là một địa điểm nổi tiếng, nơi đây là nơi cư trú của cá sấu nước ngọt và nhiều loài chim.\n\nKhi đến đây, bạn có thể đạp xe trên cung đường dài khoảng 15km rợp bóng cây, vừa hít thở không khí trong lành, vừa quan sát hệ sinh thái rừng và dừng chân check-in bên những cây cổ thụ hàng trăm năm tuổi. Ngoài ra, bạn có thể tham gia tour xem thú hoang dã về đêm, cùng bạn bè cắm trại qua đêm tại đây, cùng tham gia các hoạt động sinh hoạt cộng đồng với người Mạ tại Tà Lài để khám phá văn hóa và đời sống người dân vùng ven Vườn Quốc gia.\n\nMột trong những trải nghiệm thú vị khi đến với Cát Tiên đó chính là đạp xe qua những cung đường ngập tràn bướm đủ loại sắc màu. Mùa bướm ở Vườn quốc gia Nam Cát Tiên thường bắt đầu từ cuối tháng 4 đến tháng 5, khi ấy hàng trăm loài bướm cùng lúc xuất hiện, bay lượn giữa không gian xanh mướt.",
+        "address":  "Vườn quốc gia Cát Tiên, Xã Đak Lua, Thành phố Đồng Nai, 76814, Việt Nam",
+        "latitude":  11.4547262,
+        "longitude":  107.3197806
+    },
+    {
+        "id":  "khu-du-tru-sinh-quyen-rung-ngap-man-can-gio",
+        "name":  "Khu dự trữ sinh quyển rừng ngập mặn Cần Giờ",
+        "image_url":  "assets/images/places/khu-du-tru-sinh-quyen-rung-ngap-man-can-gio.jpg",
+        "history":  "Là Khu dự trữ sinh quyển thế giới UNESCO từ năm 2000 và là một danh lam thắng cảnh miền Nam, rừng ngập mặn Cần Giờ được xem như “lá phổi xanh” của TP.HCM, nằm ở hạ lưu hệ thống sông Đồng Nai – Sài Gòn, cách trung tâm thành phố khoảng 50km. Với diện tích hơn 75.000 ha, nơi đây sở hữu hệ sinh thái rừng ngập mặn lớn nhất Việt Nam, phục hồi từ vùng đất chết sau chiến tranh, đóng vai trò quan trọng trong điều hòa khí hậu, bảo vệ bờ biển và duy trì đa dạng sinh học.",
+        "culture":  "Tại khu du lịch sinh thái Vàm Sát, du khách có thể di chuyển bằng thuyền hoặc ca nô len lỏi qua những con kênh rợp bóng đước, quan sát hệ sinh thái rừng ngập mặn đặc trưng. Bạn cũng có thể quan sát toàn cảnh rừng ngập mặn từ tháp Tang Bồng cao 26m, hoặc khám phá Đầm Dơi Nghệ, nơi hàng nghìn con dơi treo mình trên tán cây.\n\nNgoài ra, du khách có thể đến Đảo Khỉ (Lâm Viên Cần Giờ) – nơi sinh sống của hàng nghìn con khỉ đuôi dài trong môi trường tự nhiên, nổi tiếng với sự dạn dĩ và hiếu động. Tại đây, du khách có cơ hội quan sát tập tính sinh hoạt của khỉ, tương tác, chụp ảnh và tận hưởng không khí thiên nhiên trong lành. Hơn thế nữa, khu vực Rừng Sác Cần giờ cũng là một căn cứ địa cách mạng nổi tiếng trong thời kỳ kháng chiến chống Mỹ. Đến đây, du khách có thể tham quan hệ thống mô hình tái hiện đời sống và chiến đấu của lực lượng đặc công như nhà quân y, nhà thông tin, xưởng quân giới và lắng nghe những câu chuyện lịch sử hào hùng.\n\nVới những du khách có quỹ thời gian ngắn, biển Cần Giờ là lựa chọn phù hợp để đổi gió cuối tuần. Không khí biển trong lành, không gian thoáng đãng thích hợp cho việc nghỉ ngơi, dạo biển, thưởng thức hải sản và cắm trại hoặc lưu trú tại các khu glamping ven biển.",
+        "address":  "Khu dự trữ sinh quyển rừng ngập mặn Cần Giờ, Thành phố Hồ Chí Minh, Việt Nam",
+        "latitude":  10.5279599,
+        "longitude":  106.8992765
+    },
+    {
+        "id":  "dao-phu-quoc",
+        "name":  "Đảo Phú Quốc",
+        "image_url":  "https://bluediamondretreat.com/wp-content/uploads/2026/02/grand-world-phu-quoc.jpg",
+        "history":  "Đặc khu đảo Phú Quốc là hòn đảo nằm ở cực Nam Việt Nam, thuộc tỉnh An Giang (trước đây là tỉnh Kiên Giang). Đảo nằm trong vịnh Thái Lan, là một danh lam thắng cảnh biển đảo Việt Nam hấp dẫn du lịch trong và ngoài nước hàng đầu khu vực. Với diện tích khoảng 580 km vuông, đây là đảo lớn nhất Việt Nam. Năm 2006, khu vực biển đảo tỉnh Kiên Giang cũ, bao gồm Phú Quốc, đã được UNESCO công nhận là Khu dự trữ sinh quyển thế giới.",
+        "culture":  "Khi du lịch đảo Phú Quốc, bạn sẽ dễ dàng cảm nhận được vẻ đẹp hài hòa giữa biển xanh, cát trắng và những cánh rừng nguyên sinh trải dài. Một trong những trải nghiệm đặc biệt ở Phú Quốc là lặn ngắm san hô, hòa mình vào làn nước trong veo, chiêm ngưỡng những rạn san hô đầy màu sắc và hệ sinh vật biển phong phú.\n\nNếu là một người yêu thích khám phá thiên nhiên, bạn có thể thám hiểm rừng nguyên sinh Phú Quốc, nơi sở hữu hệ sinh thái đa dạng với không gian xanh mát, hoặc khám phá vẻ đẹp hoang sơ của thiên nhiên Phú Quốc như Quần đảo An Thời với 12 hòn đảo lớn nhỏ như Hòn Thơm, Hòn Móng Tay, Hòn Gầm Ghì, Hòn Mây Rút. Nếu thích ngắm cảnh từ trên cao, bạn có thể đi cáp treo tại khám phá Hòn Thơm – đây là tuyến cáp treo vượt biển dài nhất thế giới với 7900 mét. Với những ai thích trải nghiệm hiện đại và giải trí, Vinpearl Phú Quốc có nhiều hoạt động vui chơi, nghỉ dưỡng cao cấp, hay Grand World Phú Quốc, khiến cho hành trình du lịch của bạn và bạn bè, gia đình thêm thú vị, sôi động.\n\nMột địa điểm được công nhận là danh lam thắng cảnh Việt Nam khi nơi đó có cảnh quan thiên nhiên đẹp, độc đáo và mang giá trị đặc trưng riêng. Đó có thể là núi non, sông nước, hang động, rừng, biển hoặc sự kết hợp hài hòa giữa thiên nhiên với các công trình kiến trúc, di tích lịch sử – văn hóa.\n\nNgoài giá trị thẩm mỹ, danh lam thắng cảnh còn có thể có giá trị khoa học, như lưu giữ hệ sinh thái quý hiếm, đa dạng sinh học cao hoặc dấu tích địa chất thể hiện quá trình hình thành lâu dài của Trái Đất. Để được công nhận là danh lam thắng cảnh, địa điểm đó cần được cơ quan có thẩm quyền đánh giá dựa trên các tiêu chí như: vẻ đẹp cảnh quan, giá trị địa chất – sinh thái, ý nghĩa lịch sử – văn hóa và vai trò đối với cộng đồng.\n\nViệc bảo tồn di sản cần đi cùng phát triển du lịch bền vững, giới hạn lượng khách phù hợp, khuyến khích du lịch sinh thái, du lịch cộng đồng và tạo sinh kế cho người dân địa phương. Khi chúng ta du lịch có trách nhiệm và người dân được hưởng lợi từ việc bảo tồn, họ sẽ trở thành lực lượng quan trọng trong việc gìn giữ cảnh quan.\n\nSau hành trình khám phá các danh lam thắng cảnh, việc lựa chọn một nơi lưu trú phù hợp sẽ giúp chuyến đi trở nên trọn vẹn hơn. Một không gian yên tĩnh, gần gũi thiên nhiên không chỉ giúp bạn nghỉ ngơi mà còn là lúc để chậm lại và cảm nhận rõ hơn vẻ đẹp của điểm đến. Nếu có dịp du lịch Vườn Quốc gia Phong Nha – Kẻ Bàng, bạn có thể tham khảo Blue Diamond Retreat – một nơi lưu trú gần gũi với thiên nhiên, thích hợp để nghỉ dưỡng và thư giãn sau những ngày khám phá.",
+        "address":  "Đảo Phú Quốc, Tỉnh An Giang, Việt Nam",
+        "latitude":  10.2287856,
+        "longitude":  104.0143592
+    },
+    {
+        "id":  "non-nuoc-cao-bang",
+        "name":  "Non Nước Cao Bằng",
+        "image_url":  "https://bluediamondretreat.com/wp-content/uploads/2026/02/thac-ban-gioc-cao-bang.jpg",
+        "history":  "Được UNESCO công nhận là Công viên địa chất toàn cầu vào năm 2018, Non Nước Cao Bằng là danh lam thắng cảnh Việt Nam lý tưởng cho du khách muốn khám phá vẻ đẹp thiên nhiên hoang sơ của miền núi phía Bắc.",
+        "culture":  "Khi đến với Non Nước Cao Bằng, du khách sẽ bước vào một không gian thiên nhiên rộng lớn, nơi những dãy núi đá vôi trùng điệp, thung lũng xanh mướt và dòng sông trong vắt nối tiếp nhau trải dài đến tận chân trời. Du khách có thể dành thời gian chiêm ngưỡng thác Bản Giốc – thác nước tự nhiên lớn nhất Đông Nam Á để lắng nghe tiếng nước đổ vang giữa núi rừng, chụp ảnh, đi bè tre trên sông và cảm nhận trọn vẹn vẻ đẹp hùng vĩ của thiên nhiên vùng biên giới.\n\nTiếp tục hành trình, du khách sẽ khám phá động Ngườm Ngao với hệ thống thạch nhũ kỳ ảo, dừng chân bên hồ Thang Hen hay núi Mắt Thần để tận hưởng không gian tĩnh lặng, rất phù hợp cho những ai yêu nhiếp ảnh và thiên nhiên. Khi ghé thăm Pác Bó, suối Lê-nin, rừng Trần Hưng Đạo, du khách không chỉ tham quan mà còn cảm nhận rõ chiều sâu lịch sử gắn liền với vùng đất này. Non Nước Cao Bằng đặc biệt phù hợp với những người yêu du lịch chậm rãi, thích khám phá thiên nhiên hoang sơ.\n\nThời điểm đẹp nhất đi danh lam thắng cảnh Non nước Cao Bằng đó chính là vào mùa thu, trong khoảng thời gian từ tháng 8 – tháng 10. Mùa thu nơi đây là mùa đẹp nhất của thác Bản Giốc, khi dòng nước trắng xóa đổ ầm ào giữa làn sương mát lạnh, tạo nên một bức tranh thủy mặc giữa núi rừng.",
+        "address":  "Nước Hai, Đường Hồ Chí Minh, Xã Hòa An, Tỉnh Cao Bằng, 84026, Việt Nam",
+        "latitude":  22.7357928,
+        "longitude":  106.1558931
+    },
+    {
+        "id":  "khu-di-tich-hoang-thanh-thang-long",
+        "name":  "Khu di tích Hoàng thành Thăng Long",
+        "image_url":  "assets/images/places/khu-di-tich-hoang-thanh-thang-long.jpg",
+        "history":  "Tọa lạc tại số 19C Hoàng Diệu, quận Ba Đình, Hà Nội, Hoàng thành Thăng Long được UNESCO công nhận là Di sản văn hóa thế giới vào năm 2010 và là một danh lam thắng cảnh nổi tiếng về lịch sử của thủ đô. Đến đây, du khách dễ dàng kết hợp chuyến tham quan ngắn ngày với hành trình khám phá chiều sâu lịch sử Hà Nội. Khi dạo bước trong khu di tích, du khách sẽ trực tiếp quan sát những nền móng cung điện xưa, cổng thành, sân rồng, tường thành, giếng cổ và hệ thống kiến trúc còn sót lại của kinh đô Thăng Long suốt hơn 1.300 năm, gắn liền với các triều đại Lý, Trần, Lê, Mạc và Nguyễn.",
+        "culture":  "Bên cạnh đó, du khách có thể check-in tại Kỳ đài Cột cờ Hà Nội, tham quan Điện Kính Thiên – một trung tâm của hoàng cung xưa, cùng các công trình như Đoan Môn, Hậu Lâu hay Chính Bắc Môn. Không gian rộng rãi, nhiều cây xanh và lối tham quan dễ đi giúp chuyến khám phá trở nên nhẹ nhàng, thư thái. Với vị trí thuận tiện, không gian thoáng và nội dung tham quan giàu giá trị, Hoàng thành Thăng Long đặc biệt phù hợp cho du khách yêu lịch sử, văn hóa, nhiếp ảnh kiến trúc hoặc muốn tìm kiếm một điểm dừng mang tính chiều sâu văn hóa và lịch sử trong hành trình khám phá Hà Nội.",
+        "address":  "Hoàng thành Thăng Long, Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam",
+        "latitude":  21.036262,
+        "longitude":  105.8402826
+    },
+    {
+        "id":  "thanh-nha-ho-tai-thanh-hoa",
+        "name":  "Thành nhà Hồ tại Thanh Hóa",
+        "image_url":  "assets/images/places/thanh-nha-ho-tai-thanh-hoa.jpg",
+        "history":  "Thành nhà Hồ nằm tại xã Tây Đô, tỉnh Thanh Hóa, cách trung tâm thành phố khoảng 45km, công trình này được UNESCO công nhận là Di sản văn hóa thế giới vào năm 2011 và là một trong những tòa thành đá hiếm hoi còn gần như nguyên vẹn tại Đông Nam Á.",
+        "culture":  "Khi tham quan Thành nhà Hồ ngày nay, du khách có thể tận mắt chiêm ngưỡng bốn cổng thành và hệ thống tường thành bằng đá vôi xanh, với những phiến đá nặng từ 10 tấn đến 20 tấn được ghép khít chính xác, không cần bất kỳ chất kết dính nào. Có những khối đá dài tới 6 mét, tạo nên những bức tường thành vững chãi đã tồn tại hơn 600 năm. Thành Nhà Hồ được Hồ Quý Ly cho xây dựng vào năm 1397. Phần chính của tòa thành (các bức tường đá) được hoàn thành với thời gian kỷ lục chỉ trong vòng 3 tháng.\n\nDù phần kiến trúc bên trong đã bị mai một theo thời gian, các cổng Nam, Bắc, Đông, Tây vẫn giữ được hình dáng cơ bản, trở thành điểm nhấn ấn tượng cho hành trình tham quan và chụp ảnh. Ngoài khu thành cổ, du khách còn có thể kết hợp ghé thăm Không gian văn hóa nông nghiệp Tây Đô, nơi trưng bày hơn 100 hiện vật gắn liền với đời sống nông thôn truyền thống như nông cụ, đồ dùng sinh hoạt và không gian bếp xưa. Thành nhà Hồ thu hút du khách không chỉ bởi cảnh quan cổ kính và giá trị lịch sử lâu đời, mà còn bởi những câu hỏi vẫn còn bỏ ngỏ về kỹ thuật xây dựng đá quy mô lớn của người xưa.",
+        "address":  "Nhà thi đấu huyện Đất Đỏ, Đường Võ Thị Sáu, Ấp Hiệp Hòa, Xã Đất Đỏ, Thành phố Hồ Chí Minh, Việt Nam",
+        "latitude":  10.4713991,
+        "longitude":  107.2746681
+    },
+    {
+        "id":  "quan-the-danh-thang-trang-an-ninh-binh",
+        "name":  "Quần thể danh thắng Tràng An, Ninh Bình",
+        "image_url":  "assets/images/places/quan-the-danh-thang-trang-an-ninh-binh.jpg",
+        "history":  "Tràng An nằm trên địa phận huyện Hoa Lư, là danh lam thắng cảnh di sản UNESCO Việt Nam được công nhận là Di sản Hỗn hợp Thế giới vào năm 2014, với tổng diện tích hơn 6.000ha, bao gồm hệ thống núi đá vôi, sông suối, hang động và thung lũng trải rộng giữa không gian làng quê Bắc Bộ yên bình.",
+        "culture":  "Khi du lịch Tràng An Ninh Bình, bạn sẽ trải nghiệm hành trình ngồi trên đò đi dọc dòng sông, hai bên là dãy núi đá soi bóng xuống dòng nước trong xanh hùng vĩ. Không gian nơi đây là sự hòa quyện hài hòa giữa đá, nước, rừng cây và bầu trời, mang lại một vẻ đẹp thiên nhiên hữu tình. Khoảng thời gian từ tháng 1 đến tháng 3 được nhiều du khách lựa chọn khi ghé thăm Tràng An. Đây là lúc nơi đây mùa xuân, không khí trong lành, thời tiết dễ chịu, cảnh sắc thiên nhiên xanh mướt và khoáng đạt, có nhiều hoạt động lễ hội truyền thống như lễ cầu bình an tại chùa Bái Đính, thu hút đông đảo du khách và Phật tử.\n\nBên cạnh tour thuyền truyền thống, du lịch Tràng An Ninh Bình còn mang đến nhiều trải nghiệm đa dạng như chèo kayak, hoặc kết hợp tham quan tại các địa điểm tâm linh nổi tiếng như Đền Trình, Đền Trần, Đền Tứ Trụ, Phủ Khống hay Hành cung Vũ Lâm. Hệ thống hang động như Hang Địa Linh, Hang Nấu Rượu, Hang Bói, Hang Sáng, Hang Tối, Hang Ba Giọt cũng là những điểm dừng chân hấp dẫn, giúp du khách hiểu thêm về địa chất và dấu tích cư trú của người tiền sử ở Tràng An.",
+        "address":  "Phường Hoa Lư, Tỉnh Ninh Bình, Việt Nam",
+        "latitude":  20.2572484,
+        "longitude":  105.9718894
+    },
+    {
+        "id":  "quan-the-di-tich-co-do-hue",
+        "name":  "Quần thể di tích Cố đô Huế",
+        "image_url":  "https://live.staticflickr.com/3934/15250659547_6208de7965_b.jpg",
+        "history":  "Nằm bên dòng sông Hương thơ mộng và được bao bọc bởi thế núi hài hòa, Quần thể di tích Cố đô Huế là biểu tượng tiêu biểu cho chiều sâu lịch sử và tinh hoa kiến trúc của Việt Nam thời phong kiến. Cố đô Huế là kinh đô của Việt Nam từ 1902 – 1945. Năm 1993, UNESCO đã công nhận Cố đô Huế là Di sản Văn hóa Thế giới, đánh dấu di sản đầu tiên của Việt Nam được vinh danh ở tầm quốc tế.",
+        "culture":  "Đến với Cố đô Huế, du khách có cơ hội tham quan hệ thống di tích tiêu biểu để trực tiếp chiêm ngưỡng kiến trúc cung đình xưa và tìm hiểu những dấu ấn lịch sử của triều Nguyễn. Ngay trong Kinh thành, các địa điểm du lịch Huế như Kinh thành Huế, Hoàng thành, Tử Cấm thành, Kỳ Đài, Trường Quốc Tử Giám và Bảo tàng Mỹ thuật Cung đình Huế giúp du khách hình dung rõ nét không gian sinh hoạt, học tập và nghi lễ của hoàng cung. Bên ngoài Kinh thành, bạn có thể đến các kiến trúc lăng tẩm như lăng vua Gia Long, Minh Mạng, Tự Đức, Thiệu Trị, cùng chùa Thiên Mụ, Đàn Nam Giao, Phu Văn Lâu và Hải Vân Quan để hiểu thêm về lịch sử, kiến trúc, cũng như chụp hình kỷ niệm. Với nhịp sống chậm rãi, không gian trầm mặc và chiều sâu văn hóa, Cố đô Huế nhất định là một điểm đến hấp dẫn cho những ai yêu thích du lịch di sản, muốn tìm hiểu lịch sử và kiến trúc cung đình.",
+        "address":  "Trung tâm Bảo tồn Di tích Cố đô Huế, Đinh Công Tráng, Tổ dân phố Trung Tích, Phường Phú Xuân, Hương Thuỷ, Thành phố Huế, 54000, Việt Nam",
+        "latitude":  16.4720982,
+        "longitude":  107.5835236
+    },
+    {
+        "id":  "cong-vien-dia-chat-dak-nong",
+        "name":  "Công viên địa chất Đắk Nông",
+        "image_url":  "assets/images/places/cong-vien-dia-chat-dak-nong.jpg",
+        "history":  "Công viên địa chất Đắk Nông có vị trí trải dài tại 5 huyện của tỉnh Đắk Nông cũ là: Krông Nô, Cư Jút, Đắk Mil, Đắk Song, Đắk Glong và thành phố Gia Nghĩa, nay thuộc tỉnh Lâm Đồng. Danh lam thắng cảnh này sở hữu hệ thống hang động núi lửa dung nham dài nhất châu Á, nơi dấu tích của những dòng nham thạch hàng triệu năm tuổi vẫn còn hiện diện rõ nét trong lòng đá bazan. Chính đặc điểm địa chất đặc biệt này đã đưa Đắk Nông trở thành Công viên địa chất toàn cầu UNESCO từ năm 2020, một danh hiệu dành cho những vùng đất có giá trị nổi bật về địa chất và cảnh quan.",
+        "culture":  "Trải rộng trên diện tích khoảng 4.760 km vuông, công viên địa chất tập hợp 65 điểm di sản địa chất và địa mạo, nổi bật là quần thể núi lửa đã tắt và gần 50 hang động dung nham, trong đó có hệ thống hang Chư Bluk (hang Dơi) kéo dài hàng chục kilomet. Tại đây du khách có thể trực tiếp quan sát cấu trúc hang động hình thành từ các đợt phun trào núi lửa cổ, hiểu rõ hơn về quá trình vận động địa chất của cao nguyên bazan Tây Nguyên và khám phá cảnh đẹp Việt Nam kỳ vĩ. Nơi đây còn sở hữu quần thể hang động núi lửa dài nhất Đông Nam Á.\n\nKhông chỉ có địa hình núi lửa hiếm gặp, Công viên địa chất Đắk Nông còn có không gian tự nhiên đa dạng với rừng nhiệt đới xanh rậm, hệ thống sông suối và thác nước lớn như Dray Sáp, Gia Long, Trinh Nữ chảy giữa cao nguyên bazan. Khi đến đây, du khách có thể kết hợp trekking xuyên rừng, khám phá các hang động núi lửa trong lòng đất, đồng thời quan sát những lớp nham thạch, vòm hang và dấu tích địa chất hình thành từ hàng triệu năm trước. Nhờ sự kết hợp giữa cảnh quan, địa chất và lịch sử, Công viên địa chất Đắk Nông đã trở thành một danh lam thắng cảnh thiên nhiên Việt Nam rất đáng trải nghiệm tại Tây Nguyên, dành cho những ai yêu thích du lịch khám phá, nghiên cứu khoa học, trải nghiệm thiên nhiên.",
+        "address":  "Tỉnh Đắk Nông, Tỉnh Lâm Đồng, Việt Nam",
+        "latitude":  12.2807367,
+        "longitude":  107.742636
+    },
+    {
+        "id":  "ghenh-da-dia",
+        "name":  "Ghềnh Đá Đĩa",
+        "image_url":  "https://bluediamondretreat.com/wp-content/uploads/2026/02/ghenh-da-dia.jpg",
+        "history":  "Ghềnh Đá Đĩa nằm tại xã An Ninh Đông, huyện Tuy An, tỉnh Phú Yên cũ, nay thuộc tỉnh Đắk Lắk. Điều khiến Gành Đá Đĩa trở nên đặc biệt chính là những bãi đá ven biển với cấu trúc kỳ lạ. Hàng nghìn cột đá hình lục giác, tròn hoặc vuông xếp chồng lên nhau một cách tự nhiên, tạo thành một khối đá vững chắc như không thể tách rời. Nhìn từ trên cao, toàn bộ khu vực trông như những tổ ong khổng lồ nằm san sát bên bờ biển. Bởi khu vực này trước đây được hình thành từ dung nham núi lửa cách đây 200 triệu năm.",
+        "culture":  "Đến Ghềnh Đá Đĩa Phú Yên, bạn sẽ dạo bước trên những phiến đá độc đáo, lắng nghe sóng biển vỗ vào vách đá và mà chụp ảnh check-in với thiên nhiên tuyệt đẹp. Đặc biệt, sau một ngày vui chơi, hãy nán lại thêm một chút để ngắm hoàng hôn buông xuống trên gành đá. Khi ấy, gió biển mát rượi, không gian yên bình, ánh chiều tà nhuộm vàng những khối đá tạo nên khung cảnh thơ mộng.\n\nThời điểm lý tưởng nhất để tham quan Ghềnh Đá Đĩa là từ tháng 1 đến tháng 8, khi thời tiết khô ráo, mát mẻ, thuận lợi cho việc di chuyển, ngắm cảnh và check-in. Đặc biệt, từ tháng 3 đến tháng 8, du khách còn có cơ hội hòa mình vào không khí sôi động của lễ hội Cầu Ngư, một nét văn hóa biển đặc sắc của người dân địa phương nơi đây.",
+        "address":  "Trường Đại học Mỏ - Địa chất, 18, Phố Viên, Cổ Nhuế Viên, Kẻ Noi (Cổ Nhuế), Phường Đông Ngạc, Thành phố Hà Nội, 11909, Việt Nam",
+        "latitude":  21.072514,
+        "longitude":  105.7738703
+    }
+]

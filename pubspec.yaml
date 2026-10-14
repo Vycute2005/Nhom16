@@ -1,0 +1,32 @@
+name: hcm_explorer
+description: A Ho Chi Minh City travel guide for foreigners.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.2
+  flutter_tts: ^4.2.5
+  google_maps_flutter: ^2.12.3
+  http: ^1.6.0
+  file_picker: ^13.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/places/
+    - assets/images/places/ATTRIBUTIONS.md

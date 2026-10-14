@@ -1,0 +1,482 @@
+[
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "Hệ thống Morico - Modern Japanese Restaurant Cafe - Dessert",
+    "address": "TP. Hồ Chí Minh",
+    "price_range": "30.000đ - 120.000đ (ước tính)",
+    "image_url": "https://live.staticflickr.com/4248/35047492301_cd532a5d72_z.jpg",
+    "image_is_illustrative": true,
+    "opening_hours": "Every day, 10:00-22:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.8013,
+    "longitude": 106.67649999999999,
+    "rating": 4.5
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "Hệ thống Pizza 4P’s - Pizza Kiểu Nhật",
+    "address": "TP. Hồ Chí Minh",
+    "price_range": "120.000đ - 500.000đ (ước tính)",
+    "image_url": "https://live.staticflickr.com/65535/46804641865_243090f9d8_z.jpg",
+    "image_is_illustrative": false,
+    "opening_hours": "Every day, 11:00-22:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.7549,
+    "longitude": 106.6613,
+    "rating": 4.6
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "Hệ thống Legend Hotel Saigon",
+    "address": "TP. Hồ Chí Minh",
+    "price_range": "120.000đ - 500.000đ (ước tính)",
+    "image_url": "https://live.staticflickr.com/5223/5550834695_23f612d832_z.jpg",
+    "image_is_illustrative": true,
+    "opening_hours": "Every day, 06:00-22:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.8465,
+    "longitude": 106.771,
+    "rating": 4.3
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "Hệ thống Starbucks Coffee - HCM",
+    "address": "TP. Hồ Chí Minh",
+    "price_range": "30.000đ - 120.000đ (ước tính)",
+    "image_url": "https://live.staticflickr.com/3254/3077943418_90999feff6_z.jpg",
+    "image_is_illustrative": true,
+    "opening_hours": "Every day, 07:00-22:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.798399999999999,
+    "longitude": 106.6794,
+    "rating": 4.2
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "Hệ thống Monkey In Black Cafe",
+    "address": "TP. Hồ Chí Minh",
+    "price_range": "30.000đ - 120.000đ (ước tính)",
+    "image_url": "https://live.staticflickr.com/4101/4879466900_70c3dd80c2_z.jpg",
+    "image_is_illustrative": true,
+    "opening_hours": "Every day, 08:00-23:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.7808,
+    "longitude": 106.6865,
+    "rating": 4.4
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "La Cave Wine Shop & Bistro",
+    "address": "19 Ngô Văn Năm, Quận 1, TP. HCM",
+    "price_range": "120.000đ - 500.000đ (ước tính)",
+    "image_url": "https://live.staticflickr.com/3358/3335254424_e848a95df7_z.jpg",
+    "image_is_illustrative": true,
+    "opening_hours": "Every day, 17:00-23:30",
+    "opening_hours_source": "estimated",
+    "latitude": 10.7742,
+    "longitude": 106.70089999999999,
+    "rating": 4.5
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "The Sushi Bar - Thiên Quế - Hai Bà Trưng",
+    "address": "179B Hai Bà Trưng, P. 6, Quận 3, TP. HCM",
+    "price_range": "120.000đ - 500.000đ (ước tính)",
+    "image_url": "https://live.staticflickr.com/8231/8510623720_fc2504f1e4_z.jpg",
+    "image_is_illustrative": true,
+    "opening_hours": "Every day, 10:30-22:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.782499999999999,
+    "longitude": 106.6875,
+    "rating": 4.4
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "Hệ thống Sumo BBQ - SG",
+    "address": "TP. Hồ Chí Minh",
+    "price_range": "120.000đ - 500.000đ (ước tính)",
+    "image_url": "https://live.staticflickr.com/3185/2333159004_62b140f524_z.jpg",
+    "image_is_illustrative": true,
+    "opening_hours": "Every day, 10:00-22:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.7577,
+    "longitude": 106.66,
+    "rating": 4.3
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "Hệ thống Partea",
+    "address": "TP. Hồ Chí Minh",
+    "price_range": "30.000đ - 120.000đ (ước tính)",
+    "image_url": "https://live.staticflickr.com/1329/1355675802_c12fba57cd_z.jpg",
+    "image_is_illustrative": true,
+    "opening_hours": "Every day, 09:00-22:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.76,
+    "longitude": 106.7029,
+    "rating": 4.6
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "Hệ thống Highlands Coffee",
+    "address": "TP. Hồ Chí Minh",
+    "price_range": "30.000đ - 120.000đ (ước tính)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Best_Vietnamese_Coffee_shop_%283447856668%29.jpg",
+    "image_is_illustrative": true,
+    "opening_hours": "Every day, 07:00-22:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.8506,
+    "longitude": 106.7718,
+    "rating": 4.3
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "Hệ thống Dim Tu Tac - Món Quảng Đông",
+    "address": "55 Đông Du, phường Sài Gòn, TP. Hồ Chí Minh",
+    "price_range": "120.000đ - 500.000đ (ước tính)",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Dim_Tu_Tac_flagship_location%2C_55_%C4%90%C3%B4ng_Du_Street.jpg/960px-Dim_Tu_Tac_flagship_location%2C_55_%C4%90%C3%B4ng_Du_Street.jpg",
+    "image_is_illustrative": false,
+    "opening_hours": "Every day, 10:00-22:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.775722,
+    "longitude": 106.704217,
+    "rating": 4.5
+  },
+  {
+    "food_name": "Ẩm thực đa dạng",
+    "restaurant_name": "Hệ thống Marukame Udon",
+    "address": "TP. Hồ Chí Minh",
+    "price_range": "50.000đ - 180.000đ (ước tính)",
+    "image_url": "https://live.staticflickr.com/2319/2223059600_b53842b99e_z.jpg",
+    "image_is_illustrative": true,
+    "opening_hours": "Every day, 10:00-22:00",
+    "opening_hours_source": "estimated",
+    "latitude": 10.7352,
+    "longitude": 106.7191,
+    "rating": 4.4
+  },
+  {
+    "food_name": "Phở",
+    "restaurant_name": "Món ăn truyền thống - Hà Nội",
+    "address": "Hà Nội, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/pho-274156.jpg",
+    "latitude": 21.0285,
+    "longitude": 105.8542
+  },
+  {
+    "food_name": "Bánh cuốn",
+    "restaurant_name": "Món ăn truyền thống - Hà Nội",
+    "address": "Hà Nội, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/banh-cuon-274178.jpg",
+    "latitude": 21.0285,
+    "longitude": 105.8542
+  },
+  {
+    "food_name": "Bánh mì",
+    "restaurant_name": "Món ăn truyền thống - TP. Hồ Chí Minh",
+    "address": "TP. Hồ Chí Minh, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/ba-le-banh-mi-tho-nhi-ky-665399.jpg",
+    "latitude": 10.7769,
+    "longitude": 106.7009
+  },
+  {
+    "food_name": "Bánh khọt",
+    "restaurant_name": "Món ăn truyền thống - Vũng Tàu",
+    "address": "Vũng Tàu, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/banh-khot-507261.jpg",
+    "latitude": 10.346,
+    "longitude": 107.0843
+  },
+  {
+    "food_name": "Bún",
+    "restaurant_name": "Món ăn truyền thống - Hà Nội",
+    "address": "Hà Nội, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/bun-274159.jpg",
+    "latitude": 21.0285,
+    "longitude": 105.8542
+  },
+  {
+    "food_name": "Cơm tấm",
+    "restaurant_name": "Món ăn truyền thống - TP. Hồ Chí Minh",
+    "address": "TP. Hồ Chí Minh, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/com-tam-507259.jpg",
+    "latitude": 10.7769,
+    "longitude": 106.7009
+  },
+  {
+    "food_name": "Gà nướng KonPlông",
+    "restaurant_name": "Món ăn truyền thống - Kon Plông",
+    "address": "Kon Plông, Việt Nam (tọa độ đại diện)",
+    "price_range": "150.000đ - 400.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/ga-nuong-konplong-507267.jpg",
+    "latitude": 14.7,
+    "longitude": 108.25
+  },
+  {
+    "food_name": "Bánh xèo",
+    "restaurant_name": "Món ăn truyền thống - Cần Thơ",
+    "address": "Cần Thơ, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/banh-xeo-275257.jpg",
+    "latitude": 10.0452,
+    "longitude": 105.7469
+  },
+  {
+    "food_name": "Bánh chưng/bánh tét",
+    "restaurant_name": "Món ăn truyền thống - Hà Nội",
+    "address": "Hà Nội, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/banh-chungbanh-tet-274171.jpg",
+    "latitude": 21.0285,
+    "longitude": 105.8542
+  },
+  {
+    "food_name": "Gỏi cuốn",
+    "restaurant_name": "Món ăn truyền thống - TP. Hồ Chí Minh",
+    "address": "TP. Hồ Chí Minh, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/goi-cuon-274169.jpg",
+    "latitude": 10.7769,
+    "longitude": 106.7009
+  },
+  {
+    "food_name": "Bánh bèo",
+    "restaurant_name": "Món ăn truyền thống - Huế",
+    "address": "Huế, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/banh-beo-512823.jpg",
+    "latitude": 16.4637,
+    "longitude": 107.5909
+  },
+  {
+    "food_name": "Cơm cháy",
+    "restaurant_name": "Món ăn truyền thống - Ninh Bình",
+    "address": "Ninh Bình, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/com-chay-507299.jpg",
+    "latitude": 20.2506,
+    "longitude": 105.9745
+  },
+  {
+    "food_name": "Gà Tiên Yên",
+    "restaurant_name": "Món ăn truyền thống - Quảng Ninh",
+    "address": "Quảng Ninh, Việt Nam (tọa độ đại diện)",
+    "price_range": "150.000đ - 400.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/ga-tien-yen-507313.jpg",
+    "latitude": 20.951,
+    "longitude": 107.08
+  },
+  {
+    "food_name": "Nem rán/chả giò",
+    "restaurant_name": "Món ăn truyền thống - Hà Nội",
+    "address": "Hà Nội, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/nem-rancha-gio-274165.jpg",
+    "latitude": 21.0285,
+    "longitude": 105.8542
+  },
+  {
+    "food_name": "Hủ tiếu Mỹ Tho",
+    "restaurant_name": "Món ăn truyền thống - Mỹ Tho",
+    "address": "Mỹ Tho, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/hu-tieu-my-tho-507255.jpg",
+    "latitude": 10.36,
+    "longitude": 106.36
+  },
+  {
+    "food_name": "Yến sào Khánh Hòa",
+    "restaurant_name": "Món ăn truyền thống - Nha Trang",
+    "address": "Nha Trang, Việt Nam (tọa độ đại diện)",
+    "price_range": "100.000đ - 500.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/yen-sao-507274.jpg",
+    "latitude": 12.2388,
+    "longitude": 109.1967
+  },
+  {
+    "food_name": "Bánh căn",
+    "restaurant_name": "Món ăn truyền thống - Nha Trang",
+    "address": "Nha Trang, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/banh-can-512824.jpg",
+    "latitude": 12.2388,
+    "longitude": 109.1967
+  },
+  {
+    "food_name": "Súp lươn",
+    "restaurant_name": "Món ăn truyền thống - Nghệ An",
+    "address": "Nghệ An, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/sup-luon-512821.jpg",
+    "latitude": 18.6796,
+    "longitude": 105.6813
+  },
+  {
+    "food_name": "Bánh tráng cuốn thịt lợn 2 đầu da",
+    "restaurant_name": "Món ăn truyền thống - Quảng Nam",
+    "address": "Quảng Nam, Việt Nam (tọa độ đại diện)",
+    "price_range": "150.000đ - 400.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/banh-trang-cuon-thit-lon-2-dau-da-507286.jpg",
+    "latitude": 15.5736,
+    "longitude": 108.474
+  },
+  {
+    "food_name": "Lẩu thả",
+    "restaurant_name": "Món ăn truyền thống - Phan Thiết",
+    "address": "Phan Thiết, Việt Nam (tọa độ đại diện)",
+    "price_range": "100.000đ - 300.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/lau-tha-507270.jpg",
+    "latitude": 10.9289,
+    "longitude": 108.1021
+  },
+  {
+    "food_name": "Cao lầu",
+    "restaurant_name": "Món ăn truyền thống - Hội An",
+    "address": "Hội An, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/cao-lau-274167.jpg",
+    "latitude": 15.8801,
+    "longitude": 108.338
+  },
+  {
+    "food_name": "Chả cá",
+    "restaurant_name": "Món ăn truyền thống - Hà Nội",
+    "address": "Hà Nội, Việt Nam (tọa độ đại diện)",
+    "price_range": "100.000đ - 300.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/cha-ca-274163.jpg",
+    "latitude": 21.0285,
+    "longitude": 105.8542
+  },
+  {
+    "food_name": "Bánh khoái Huế",
+    "restaurant_name": "Món ăn truyền thống - Huế",
+    "address": "Huế, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/banh-khoai-hue-507289.jpg",
+    "latitude": 16.4637,
+    "longitude": 107.5909
+  },
+  {
+    "food_name": "Mì Quảng",
+    "restaurant_name": "Món ăn truyền thống - Quảng Nam",
+    "address": "Quảng Nam, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/mi-quang-507285.jpg",
+    "latitude": 15.5736,
+    "longitude": 108.474
+  },
+  {
+    "food_name": "Phở chua",
+    "restaurant_name": "Món ăn truyền thống - Lạng Sơn",
+    "address": "Lạng Sơn, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/pho-chua-512817.jpg",
+    "latitude": 21.8537,
+    "longitude": 106.7611
+  },
+  {
+    "food_name": "Dê núi Trường Yên 6 món",
+    "restaurant_name": "Món ăn truyền thống - Ninh Bình",
+    "address": "Ninh Bình, Việt Nam (tọa độ đại diện)",
+    "price_range": "150.000đ - 400.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/de-nui-truong-yen-6-mon-507300.jpg",
+    "latitude": 20.2506,
+    "longitude": 105.9745
+  },
+  {
+    "food_name": "Bún chả cá Quy Nhơn",
+    "restaurant_name": "Món ăn truyền thống - Quy Nhơn",
+    "address": "Quy Nhơn, Việt Nam (tọa độ đại diện)",
+    "price_range": "100.000đ - 300.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/bun-cha-ca-quy-nhon-507277.jpg",
+    "latitude": 13.782,
+    "longitude": 109.219
+  },
+  {
+    "food_name": "Bánh canh Trảng Bàng",
+    "restaurant_name": "Món ăn truyền thống - Trảng Bàng",
+    "address": "Trảng Bàng, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/banh-canh-trang-bang-507264.jpg",
+    "latitude": 11.029,
+    "longitude": 106.36
+  },
+  {
+    "food_name": "Chả mực Hạ Long",
+    "restaurant_name": "Món ăn truyền thống - Quảng Ninh",
+    "address": "Quảng Ninh, Việt Nam (tọa độ đại diện)",
+    "price_range": "100.000đ - 300.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/cha-muc-ha-long-507314.jpg",
+    "latitude": 20.951,
+    "longitude": 107.08
+  },
+  {
+    "food_name": "Cơm hến",
+    "restaurant_name": "Món ăn truyền thống - Huế",
+    "address": "Huế, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/com-hen-507290.jpg",
+    "latitude": 16.4637,
+    "longitude": 107.5909
+  },
+  {
+    "food_name": "Chắt chắt",
+    "restaurant_name": "Món ăn truyền thống - Quảng Bình",
+    "address": "Quảng Bình, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/chat-chat-507295.jpg",
+    "latitude": 17.467,
+    "longitude": 106.623
+  },
+  {
+    "food_name": "Lợn “cắp nách” 6 món",
+    "restaurant_name": "Món ăn truyền thống - Sa Pa",
+    "address": "Sa Pa, Việt Nam (tọa độ đại diện)",
+    "price_range": "150.000đ - 400.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/lon-cap-nach-6-mon-507317.jpg",
+    "latitude": 22.3364,
+    "longitude": 103.8438
+  },
+  {
+    "food_name": "Thịt trâu khô",
+    "restaurant_name": "Món ăn truyền thống - Sơn La",
+    "address": "Sơn La, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/thit-trau-kho-507320.jpg",
+    "latitude": 21.325,
+    "longitude": 103.91
+  },
+  {
+    "food_name": "Bê thui Cầu Mống",
+    "restaurant_name": "Món ăn truyền thống - Quảng Nam",
+    "address": "Quảng Nam, Việt Nam (tọa độ đại diện)",
+    "price_range": "150.000đ - 400.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/be-thui-cau-mong-507281.jpg",
+    "latitude": 15.5736,
+    "longitude": 108.474
+  },
+  {
+    "food_name": "Cá bống sông Trà",
+    "restaurant_name": "Món ăn truyền thống - Quảng Ngãi",
+    "address": "Quảng Ngãi, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/ca-bong-song-tra-507280.jpg",
+    "latitude": 15.121,
+    "longitude": 108.804
+  },
+  {
+    "food_name": "Bánh đa cua",
+    "restaurant_name": "Món ăn truyền thống - Hải Phòng",
+    "address": "Hải Phòng, Việt Nam (tọa độ đại diện)",
+    "price_range": "30.000đ - 100.000đ (ước tính)",
+    "image_url": "https://toplist.vn/images/800px/banh-da-cua-507307.jpg",
+    "latitude": 20.8449,
+    "longitude": 106.6881
+  }
+]
