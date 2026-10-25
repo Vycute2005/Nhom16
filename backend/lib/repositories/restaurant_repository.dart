@@ -1,9 +1,27 @@
-import 'package:mysql_client/mysql_client.dart';
+import 'package:backend/config/database.dart';
 
 class RestaurantRepository {
-  final MySQLConnection db;
+  final DatabaseConnection db;
 
   RestaurantRepository(this.db);
+
+  Future<void> ensureSchema() async {
+    await db.execute('''
+      CREATE TABLE IF NOT EXISTS restaurant (
+        id VARCHAR(191) NOT NULL PRIMARY KEY,
+        name VARCHAR(255) NOT NULL,
+        address TEXT NOT NULL,
+        food_id VARCHAR(191) NOT NULL,
+        latitude DOUBLE NOT NULL,
+        longitude DOUBLE NOT NULL,
+        image_url TEXT NOT NULL,
+        rating DOUBLE NOT NULL DEFAULT 0,
+        opening_hours VARCHAR(64) NOT NULL DEFAULT '',
+        opening_hours_source VARCHAR(16) NOT NULL DEFAULT '',
+        image_is_illustrative TINYINT(1) NOT NULL DEFAULT 0
+      ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
+    ''');
+  }
 
   Future<List<Map<String, dynamic>>> findAll() async {
     final results = await db.execute('''
@@ -159,9 +177,6 @@ class RestaurantRepository {
   }
 
   Future<void> delete(String id) async {
-    await db.execute(
-      'DELETE FROM restaurant WHERE id = :id',
-      {'id': id},
-    );
+    await db.execute('DELETE FROM restaurant WHERE id = :id', {'id': id});
   }
 }

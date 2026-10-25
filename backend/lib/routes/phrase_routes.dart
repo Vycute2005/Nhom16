@@ -50,11 +50,11 @@ class PhraseRoutes {
       final data = jsonDecode(body);
 
       await repository.create(
-        id: data['id'],
-        vietnamese: data['vietnamese'],
-        pronunciation: data['pronunciation'],
-        english: data['english'],
-        explanation: data['explanation'],
+        category: data['category']?.toString() ?? 'Phương ngữ 3 miền',
+        meaning: data['meaning']?.toString() ?? '',
+        northWord: data['north_word']?.toString() ?? '',
+        centralWord: data['central_word']?.toString() ?? '',
+        southWord: data['south_word']?.toString() ?? '',
       );
 
       return Response(
@@ -87,10 +87,11 @@ class PhraseRoutes {
 
       await repository.update(
         id: id,
-        vietnamese: data['vietnamese'],
-        pronunciation: data['pronunciation'],
-        english: data['english'],
-        explanation: data['explanation'],
+        category: data['category']?.toString() ?? 'Phương ngữ 3 miền',
+        meaning: data['meaning']?.toString() ?? '',
+        northWord: data['north_word']?.toString() ?? '',
+        centralWord: data['central_word']?.toString() ?? '',
+        southWord: data['south_word']?.toString() ?? '',
       );
 
       return Response.ok(

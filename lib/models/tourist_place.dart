@@ -5,8 +5,9 @@ class TouristPlace {
   final String history;
   final String culture;
   final String address;
-  final double latitude;
-  final double longitude;
+  final String province;
+  final double? latitude;
+  final double? longitude;
 
   TouristPlace({
     required this.id,
@@ -15,6 +16,7 @@ class TouristPlace {
     required this.history,
     required this.culture,
     required this.address,
+    this.province = '',
     required this.latitude,
     required this.longitude,
   });
@@ -27,8 +29,9 @@ class TouristPlace {
       history: json['history']?.toString() ?? '',
       culture: json['culture']?.toString() ?? '',
       address: json['address']?.toString() ?? '',
-      latitude: double.parse(json['latitude'].toString()),
-      longitude: double.parse(json['longitude'].toString()),
+      province: json['province']?.toString() ?? '',
+      latitude: double.tryParse(json['latitude']?.toString() ?? ''),
+      longitude: double.tryParse(json['longitude']?.toString() ?? ''),
     );
   }
 }

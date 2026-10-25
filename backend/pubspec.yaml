@@ -1,23 +1,26 @@
 name: backend
 description: A server app using the shelf package and Docker.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
 
 environment:
   sdk: ^3.13.4
 
 dependencies:
+  bcrypt: ^1.2.0
+  crypto: ^3.0.6
+  dart_jsonwebtoken: ^3.4.1
   dotenv: ^4.2.0
+  html: ^0.15.4
+  http: ^1.2.0
+  jose: ^0.3.5+2
+  mailer: ^7.2.0
   minio: ^3.5.8
-  mysql_client: ^0.0.27
+  mysql1: ^0.20.0
+  puppeteer: ^3.0.0
   shelf: ^1.4.2
   shelf_cors_headers: ^0.1.5
   shelf_multipart: ^2.0.1
-  shelf_router: ^1.1.2
-
-  http: ^1.2.0
-  html: ^0.15.4
-  puppeteer: ^3.0.0
+  shelf_router: ^1.1.4
 
 dev_dependencies:
   lints: ^6.0.0

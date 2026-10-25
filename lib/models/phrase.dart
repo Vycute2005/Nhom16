@@ -1,25 +1,25 @@
 class Phrase {
-  final String id;
-  final String vietnamese;
-  final String pronunciation;
-  final String english;
-  final String explanation;
+  final String category;
+  final String meaning;
+  final String northWord;
+  final String centralWord;
+  final String southWord;
 
   Phrase({
-    required this.id,
-    required this.vietnamese,
-    required this.pronunciation,
-    required this.english,
-    required this.explanation,
+    required this.category,
+    required this.meaning,
+    required this.northWord,
+    required this.centralWord,
+    required this.southWord,
   });
 
   factory Phrase.fromJson(Map<String, dynamic> json) {
     return Phrase(
-      id: json['id'].toString(),
-      vietnamese: json['vietnamese']?.toString() ?? '',
-      pronunciation: json['pronunciation']?.toString() ?? '',
-      english: json['english']?.toString() ?? '',
-      explanation: json['explanation']?.toString() ?? '',
+      category: json['category']?.toString() ?? '',
+      meaning: json['meaning']?.toString() ?? '',
+      northWord: json['north_word']?.toString() ?? '',
+      centralWord: json['central_word']?.toString() ?? '',
+      southWord: json['south_word']?.toString() ?? '',
     );
   }
 }

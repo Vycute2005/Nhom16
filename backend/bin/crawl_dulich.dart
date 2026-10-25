@@ -6,6 +6,7 @@ import 'package:puppeteer/puppeteer.dart';
 import 'package:html/dom.dart' show Document, Element;
 import 'package:html/parser.dart' show parse;
 import 'package:backend/utils/openverse_image.dart';
+import 'package:backend/utils/tourist_province.dart';
 
 String _normalizePlaceName(String value) => value
     .toLowerCase()
@@ -80,6 +81,37 @@ String _placeId(String name) {
       .replaceAll(RegExp(r'^-|-$'), '');
 }
 
+const _knownLocationOverrides = <String, Map<String, Object>>{
+  'chua-huong': {
+    'address': 'Động Hương Tích, Xã Hương Sơn, Thành phố Hà Nội, Việt Nam',
+    'province': 'Hà Nội',
+    'latitude': 20.614065,
+    'longitude': 105.7337296,
+  },
+  'ghenh-da-dia': {
+    'address': 'Gành Đá Đĩa, Tỉnh Đắk Lắk, Việt Nam',
+    'province': 'Đắk Lắk',
+    'latitude': 13.3541878,
+    'longitude': 109.2938159,
+  },
+  'tam-dao': {
+    'address': 'Tam Đảo, Tỉnh Phú Thọ, Việt Nam',
+    'province': 'Phú Thọ',
+    'latitude': 21.4559982,
+    'longitude': 105.644466,
+  },
+  'thanh-nha-ho-tai-thanh-hoa': {
+    'address': 'Thành Nhà Hồ, Xã Tây Đô, Tỉnh Thanh Hóa, Việt Nam',
+    'province': 'Thanh Hóa',
+    'latitude': 20.077973,
+    'longitude': 105.6044596,
+  },
+  'vinh-ha-long': {
+    'address': 'Vịnh Hạ Long, Tỉnh Quảng Ninh, Việt Nam',
+    'province': 'Quảng Ninh',
+  },
+};
+
 String _imageSource(Element? image) {
   if (image == null) {
     return '';
@@ -109,6 +141,12 @@ String _imageSource(Element? image) {
 
 Map<String, dynamic> _appPlace(Map<String, dynamic> place) {
   final name = (place['name'] as String? ?? '').trim();
+  final address = place['address'] ?? '';
+  final province = resolveTouristProvince(
+    name: name,
+    address: address.toString(),
+    province: place['province']?.toString(),
+  );
   final rawLatitude = place['latitude'];
   final rawLongitude = place['longitude'];
   return {
@@ -123,7 +161,8 @@ Map<String, dynamic> _appPlace(Map<String, dynamic> place) {
         : '',
     'history': place['history'] ?? place['description'] ?? '',
     'culture': place['culture'] ?? place['type'] ?? '',
-    'address': place['address'] ?? '',
+    'address': address,
+    'province': province ?? '',
     'latitude': rawLatitude is num ? rawLatitude : 0.0,
     'longitude': rawLongitude is num ? rawLongitude : 0.0,
   };
@@ -137,13 +176,13 @@ String _addressFromStructuredData(dynamic value) {
     return '';
   }
   return [
-    value['streetAddress'],
-    value['addressLocality'],
-    value['addressRegion'],
-    value['addressCountry'] is Map<String, dynamic>
-        ? (value['addressCountry'] as Map<String, dynamic>)['name']
-        : value['addressCountry'],
-  ]
+        value['streetAddress'],
+        value['addressLocality'],
+        value['addressRegion'],
+        value['addressCountry'] is Map<String, dynamic>
+            ? (value['addressCountry'] as Map<String, dynamic>)['name']
+            : value['addressCountry'],
+      ]
       .whereType<String>()
       .map((part) => part.trim())
       .where((part) => part.isNotEmpty)
@@ -205,6 +244,7 @@ Future<Map<String, dynamic>?> _geocode(
     final uri = Uri.https('nominatim.openstreetmap.org', '/search', {
       'format': 'jsonv2',
       'limit': '1',
+      'addressdetails': '1',
       'q': '$queryName, Vietnam',
     });
     final request = await client.getUrl(uri);
@@ -246,7 +286,12 @@ Future<Map<String, dynamic>?> _geocode(
     }
     final latitude = double.tryParse(result['lat']?.toString() ?? '');
     final longitude = double.tryParse(result['lon']?.toString() ?? '');
-    if (latitude == null || longitude == null) {
+    if (latitude == null ||
+        longitude == null ||
+        latitude < 8 ||
+        latitude > 24 ||
+        longitude < 102 ||
+        longitude > 110) {
       continue;
     }
 
@@ -733,6 +778,23 @@ void main() async {
 
     final resultList = placesByName.values.toList();
     for (final place in resultList) {
+      final placeId = place['id'] as String;
+      final locationOverride = _knownLocationOverrides[placeId];
+      if (locationOverride != null) {
+        place.addAll(locationOverride);
+      }
+      final province = resolveTouristProvince(
+        name: place['name'] as String,
+        address: place['address'] as String? ?? '',
+        province: place['province'] as String?,
+      );
+      if (province == null) {
+        throw FormatException(
+          'Không xác định được tỉnh/thành cho địa điểm "${place['name']}".',
+        );
+      }
+      place['province'] = province;
+
       final imageUrl = place['image_url'] as String? ?? '';
       final imageHost = Uri.tryParse(imageUrl)?.host ?? '';
       if (imageUrl.isNotEmpty && imageHost != 'thumb.wikimedia.org') {

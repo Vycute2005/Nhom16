@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
+import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:http/http.dart' as http;
@@ -14,13 +15,60 @@ class UploadRoutes {
   static const _allowedImageHosts = {
     'toplist.vn',
     'upload.wikimedia.org',
+    'down-vn.img.susercontent.com',
     'thumb.wikimedia.org',
     'live.staticflickr.com',
     'images.rawpixel.com',
+    'images.unsplash.com',
+    'www.huongnghiepaau.com',
+    'huongnghiepaau.com',
+    'galatourist.com',
+    'www.galatourist.com',
+    'luhanhvietnam.com.vn',
+    'www.luhanhvietnam.com.vn',
+    'file.hstatic.net',
+    'topnhatrang.com.vn',
+    'www.topnhatrang.com.vn',
+    'dulichvietnam.com.vn',
+    'www.dulichvietnam.com.vn',
+    's-aicmscdn.vietnamhoinhap.vn',
+    'dynamic-media-cdn.tripadvisor.com',
+    'catba.tours',
+    'www.catba.tours',
+    'langcomvong.com',
     'bluediamondretreat.com',
+    'phunuvietnam.mediacdn.vn',
+    'cdn.nhandan.vn',
+    'media.vov.vn',
+    'cafefcdn.com',
+    'danang.gov.vn',
+    'media.baovanhoa.vn',
+    'vstatic.vietnam.vn',
+    'imgchinhsachcuocsong.vnanet.vn',
+    'bqn.1cdn.vn',
+    'media.thanhtra.com.vn',
+    'dientuungdung.vn',
+    'congan.angiang.gov.vn',
+    'images.baodantoc.vn',
+    'nld.mediacdn.vn',
   };
 
   UploadRoutes(this.storageService);
+
+  static bool _isAllowedImageUri(Uri uri) =>
+      uri.scheme == 'https' &&
+      uri.userInfo.isEmpty &&
+      (!uri.hasPort || uri.port == 443) &&
+      _allowedImageHosts.contains(uri.host.toLowerCase());
+
+  static Uri? _resolveImageRedirect(Uri baseUri, String? location) {
+    if (location == null || location.trim().isEmpty) return null;
+    try {
+      return baseUri.resolve(location.trim());
+    } on FormatException {
+      return null;
+    }
+  }
 
   Router get router {
     final router = Router();
@@ -28,7 +76,14 @@ class UploadRoutes {
     router.post('/api/uploads', (Request request) async {
       final folder = request.url.queryParameters['folder'] ?? 'foods';
 
-      const allowedFolders = ['foods', 'restaurants', 'tourist-places'];
+      const allowedFolders = [
+        'foods',
+        'restaurants',
+        'tourist-places',
+        'community',
+        'avatars',
+        'checkins',
+      ];
 
       if (!allowedFolders.contains(folder)) {
         return Response.badRequest(
@@ -121,11 +176,7 @@ class UploadRoutes {
     router.get('/api/image-proxy', (Request request) async {
       final source = request.url.queryParameters['url'];
       final uri = source == null ? null : Uri.tryParse(source);
-      if (uri == null ||
-          uri.scheme != 'https' ||
-          uri.userInfo.isNotEmpty ||
-          (uri.hasPort && uri.port != 443) ||
-          !_allowedImageHosts.contains(uri.host.toLowerCase())) {
+      if (uri == null || !_isAllowedImageUri(uri)) {
         return Response.badRequest(
           body: jsonEncode({'message': 'Unsupported image URL.'}),
           headers: {'Content-Type': 'application/json'},
@@ -134,13 +185,79 @@ class UploadRoutes {
 
       final client = http.Client();
       try {
-        final request = http.Request('GET', uri)
-          ..followRedirects = false
-          ..headers['User-Agent'] = 'HCMExplorer/1.0';
-        final response = await client
-            .send(request)
-            .timeout(const Duration(seconds: 15));
-        if (response.statusCode != 200) {
+        http.StreamedResponse? response;
+        for (var attempt = 0; attempt < 3; attempt++) {
+          var requestUri = uri;
+          for (var redirectCount = 0; redirectCount <= 5; redirectCount++) {
+            final imageRequest = http.Request('GET', requestUri)
+              ..followRedirects = false
+              ..headers['User-Agent'] = 'HCMExplorer/1.0';
+            final candidate = await client
+                .send(imageRequest)
+                .timeout(const Duration(seconds: 15));
+            response = candidate;
+
+            if (candidate.statusCode == HttpStatus.ok) break;
+
+            const redirectStatuses = {301, 302, 303, 307, 308};
+            if (!redirectStatuses.contains(candidate.statusCode) ||
+                redirectCount == 5) {
+              break;
+            }
+
+            final nextUri = _resolveImageRedirect(
+              requestUri,
+              candidate.headers['location'],
+            );
+            await candidate.stream.drain<void>();
+            if (nextUri == null || !_isAllowedImageUri(nextUri)) {
+              return Response(
+                502,
+                body: jsonEncode({
+                  'message': 'Image source returned an unsupported redirect.',
+                }),
+                headers: {'Content-Type': 'application/json'},
+              );
+            }
+            requestUri = nextUri;
+          }
+
+          final attemptResponse = response;
+          if (attemptResponse == null ||
+              attemptResponse.statusCode == HttpStatus.ok) {
+            break;
+          }
+
+          final canRetry = const {
+            HttpStatus.tooManyRequests,
+            HttpStatus.badGateway,
+            HttpStatus.serviceUnavailable,
+            HttpStatus.gatewayTimeout,
+          }.contains(attemptResponse.statusCode);
+          if (!canRetry || attempt == 2) {
+            return Response(
+              502,
+              body: jsonEncode({'message': 'Image source returned an error.'}),
+              headers: {'Content-Type': 'application/json'},
+            );
+          }
+
+          final retryAfterSeconds = int.tryParse(
+            attemptResponse.headers['retry-after'] ?? '',
+          );
+          await attemptResponse.stream.drain<void>();
+          await Future<void>.delayed(
+            Duration(
+              milliseconds: retryAfterSeconds == null
+                  ? 500 * (attempt + 1)
+                  : (retryAfterSeconds.clamp(1, 5) * 1000),
+            ),
+          );
+        }
+
+        final imageResponse = response;
+        if (imageResponse == null ||
+            imageResponse.statusCode != HttpStatus.ok) {
           return Response(
             502,
             body: jsonEncode({'message': 'Image source returned an error.'}),
@@ -148,7 +265,7 @@ class UploadRoutes {
           );
         }
 
-        final contentType = response.headers['content-type']
+        final contentType = imageResponse.headers['content-type']
             ?.split(';')
             .first
             .trim()
@@ -171,7 +288,7 @@ class UploadRoutes {
 
         final imageBuilder = BytesBuilder(copy: false);
         var imageSize = 0;
-        await for (final chunk in response.stream.timeout(
+        await for (final chunk in imageResponse.stream.timeout(
           const Duration(seconds: 15),
         )) {
           imageSize += chunk.length;

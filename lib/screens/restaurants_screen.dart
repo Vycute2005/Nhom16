@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:hcm_explorer/widgets/app_ui.dart';
 import '../models/food.dart';
 import '../models/restaurant.dart';
 import '../widgets/app_image.dart';
@@ -18,12 +18,12 @@ class RestaurantsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('${food.name} Restaurants'),
+        title: Text(AppTranslations.isEnglish ? '${food.name} Restaurants' : 'Quán ăn · ${food.name}'),
       ),
       body: restaurants.isEmpty
           ? const Center(
               child: Text(
-                'No restaurants found.',
+                'Chưa có quán ăn.',
                 style: TextStyle(fontSize: 18),
               ),
             )
@@ -98,7 +98,7 @@ class RestaurantCard extends StatelessWidget {
                     if (restaurant.imageIsIllustrative) ...[
                       const SizedBox(height: 5),
                       Text(
-                        'Representative photo · not this branch',
+                        'Ảnh minh họa · có thể không phải chi nhánh này',
                         style: TextStyle(
                           color: Colors.grey.shade600,
                           fontSize: 12,
@@ -124,8 +124,7 @@ class RestaurantCard extends StatelessWidget {
                           const SizedBox(width: 5),
                           Expanded(
                             child: Text(
-                              '${restaurant.openingHoursIsEstimate ? 'Estimated hours' : 'Hours'}: '
-                              '${restaurant.openingHours}',
+                              '${AppTranslations.translate(restaurant.openingHoursIsEstimate ? 'Giờ dự kiến' : 'Giờ mở cửa')}: ${restaurant.openingHours}',
                               style: TextStyle(
                                 color: restaurant.openingHoursIsEstimate
                                     ? Colors.grey.shade700
@@ -138,7 +137,7 @@ class RestaurantCard extends StatelessWidget {
                     ],
                     const SizedBox(height: 8),
                     const Text(
-                      'View details',
+                      'Xem chi tiết',
                       style: TextStyle(
                         color: Colors.teal,
                         fontWeight: FontWeight.bold,

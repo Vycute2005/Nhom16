@@ -33,10 +33,6 @@ class AppImage extends StatelessWidget {
     final isAsset = imageSource.startsWith('assets/');
     final isApiImage = imageSource.startsWith('/api/images/');
 
-    if (isRemoteUrl && uri.host == 'down-vn.img.susercontent.com') {
-      return _placeholder(context);
-    }
-
     if (isAsset) {
       return Image.asset(
         imageSource,
@@ -53,15 +49,26 @@ class AppImage extends StatelessWidget {
             .toString()
         : isApiImage
             ? '${ApiConfig.baseUrl}$imageSource'
-            : '${ApiConfig.baseUrl}/api/images/'
-                '${Uri.encodeComponent(imageSource)}';
+            : '${ApiConfig.baseUrl}/api/images/${imageSource.split('/').map(Uri.encodeComponent).join('/')}';
 
     return Image.network(
       imageUrl,
       width: width,
       height: height,
       fit: fit,
-      errorBuilder: (context, error, stackTrace) => _placeholder(context),
+      errorBuilder: (context, error, stackTrace) {
+        if (!isRemoteUrl || uri.scheme != 'https') {
+          return _placeholder(context);
+        }
+
+        return Image.network(
+          imageSource,
+          width: width,
+          height: height,
+          fit: fit,
+          errorBuilder: (context, error, stackTrace) => _placeholder(context),
+        );
+      },
     );
   }
 

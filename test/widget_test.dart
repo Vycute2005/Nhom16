@@ -12,9 +12,9 @@ import 'package:hcm_explorer/main.dart';
 void main() {
   testWidgets('home screen shows the main sections',
       (WidgetTester tester) async {
-    await tester.pumpWidget(const SaigonExplorerApp());
+    await tester.pumpWidget(const VNGuideApp());
 
-    expect(find.text('Saigon Explorer'), findsOneWidget);
+    expect(find.text('VNGuide'), findsOneWidget);
     expect(find.text('Tourist Places'), findsOneWidget);
     expect(find.text('Vietnamese Phrases'), findsOneWidget);
     expect(find.text('Local Food'), findsOneWidget);

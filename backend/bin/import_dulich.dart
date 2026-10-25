@@ -1,8 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:dotenv/dotenv.dart';
-import 'package:mysql_client/mysql_client.dart';
+import 'package:backend/config/database.dart';
+import 'package:backend/repositories/tourist_place_repository.dart';
+import 'package:backend/utils/tourist_province.dart';
 
 String _normalizeId(String value) {
   const replacements = {
@@ -29,7 +30,6 @@ String _normalizeId(String value) {
 }
 
 void main() async {
-  final dotenv = DotEnv()..load();
   final file = File('assets/data/places.json');
   if (!await file.exists()) {
     stderr.writeln(
@@ -56,35 +56,15 @@ void main() async {
     places.add(entry);
   }
 
-  final host = dotenv['DB_HOST'] ?? '103.82.26.171';
-  final port = int.tryParse(dotenv['DB_PORT'] ?? '8806') ?? 8806;
-  final user = dotenv['DB_USERNAME'] ?? 'hcm_explorer';
-  final database = dotenv['DB_DATABASE'] ?? 'vietnam_travel';
-  final conn = await MySQLConnection.createConnection(
-    host: host,
-    port: port,
-    userName: user,
-    password: dotenv['DB_PASSWORD'] ?? '',
-    databaseName: database,
-    secure: false,
-  );
-
-  print(
-    'Đang kết nối MariaDB tại $host:$port (user: $user, database: $database)...',
-  );
+  final conn = await Database.connect();
+  final repository = TouristPlaceRepository(conn);
   try {
-    await conn.connect();
-  } catch (error) {
-    stderr.writeln(
-      '❌ Không kết nối được MariaDB. Kiểm tra DB_HOST, DB_PORT, '
-      'DB_USERNAME và DB_PASSWORD trong .env.',
-    );
-    stderr.writeln('Chi tiết lỗi: $error');
-    rethrow;
-  }
-  print('✅ Kết nối thành công!');
+    await repository.ensureSchema();
+    final destinationCount = await repository.syncDestinationsIfAvailable();
+    if (destinationCount > 0) {
+      print('✅ Đã đồng bộ $destinationCount địa điểm từ bảng destinations.');
+    }
 
-  try {
     final existingResults = await conn.execute('SELECT id FROM tourist_place');
     final existingIds = <String>{};
     for (final row in existingResults.rows) {
@@ -92,6 +72,46 @@ void main() async {
       if (id != null) {
         existingIds.add(id);
       }
+    }
+
+    final destinationColumns = await conn.execute('''
+      SELECT column_name
+      FROM information_schema.columns
+      WHERE table_schema = DATABASE()
+        AND table_name = 'destinations'
+    ''');
+    final hasDestinationImages = destinationColumns.rows
+        .map((row) => row.assoc()['column_name'])
+        .contains('image_url');
+    if (hasDestinationImages) {
+      final destinationNames = await conn.execute(
+        'SELECT name FROM destinations',
+      );
+      final namesByNormalizedValue = <String, String>{};
+      for (final row in destinationNames.rows) {
+        final name = row.assoc()['name'];
+        if (name != null) {
+          namesByNormalizedValue.putIfAbsent(_normalizeId(name), () => name);
+        }
+      }
+
+      var updatedSourceImages = 0;
+      for (final place in places) {
+        final name = (place['name'] as String?)?.trim() ?? '';
+        final imageUrl = (place['image_url'] as String?)?.trim() ?? '';
+        final sourceName = namesByNormalizedValue[_normalizeId(name)];
+        if (imageUrl.isEmpty || sourceName == null) continue;
+
+        await conn.execute(
+          'UPDATE destinations SET image_url = :imageUrl WHERE name = :name',
+          {'imageUrl': imageUrl, 'name': sourceName},
+        );
+        updatedSourceImages++;
+      }
+      print(
+        'Đã cập nhật ảnh khớp tiêu đề cho $updatedSourceImages địa điểm '
+        'trong destinations.',
+      );
     }
 
     print('Đang đồng bộ ${places.length} địa điểm vào bảng tourist_place...');
@@ -106,6 +126,11 @@ void main() async {
           ? (place['id'] as String).trim()
           : _normalizeId(name);
       final address = (place['address'] as String?)?.trim() ?? '';
+      final province = resolveTouristProvince(
+        name: name,
+        address: address,
+        province: place['province'] as String?,
+      );
       final history =
           (place['history'] as String?)?.trim() ??
           (place['description'] as String?)?.trim() ??
@@ -123,10 +148,12 @@ void main() async {
       if (name.isEmpty ||
           id.isEmpty ||
           address.isEmpty ||
+          province == null ||
           latitude is! num ||
           longitude is! num) {
         throw FormatException(
-          'Bản ghi địa điểm #${index + 1} thiếu name/address/latitude/longitude.',
+          'Bản ghi địa điểm #${index + 1} thiếu name/address/tỉnh thành hợp lệ '
+          'hoặc tọa độ.',
         );
       }
 
@@ -134,10 +161,12 @@ void main() async {
         await conn.execute(
           '''
           INSERT INTO tourist_place (
-            id, name, image_url, history, culture, address, latitude, longitude
+            id, name, image_url, history, culture, address, province,
+            latitude, longitude
           )
           VALUES (
-            :id, :name, :imageUrl, :history, :culture, :address, :latitude, :longitude
+            :id, :name, :imageUrl, :history, :culture, :address, :province,
+            :latitude, :longitude
           )
           ON DUPLICATE KEY UPDATE
             name = VALUES(name),
@@ -145,6 +174,7 @@ void main() async {
             history = VALUES(history),
             culture = VALUES(culture),
             address = VALUES(address),
+            province = VALUES(province),
             latitude = VALUES(latitude),
             longitude = VALUES(longitude)
           ''',
@@ -155,6 +185,7 @@ void main() async {
             'history': history,
             'culture': culture,
             'address': address,
+            'province': province,
             'latitude': latitude,
             'longitude': longitude,
           },
@@ -170,8 +201,7 @@ void main() async {
         stderr.writeln(
           '❌ Không thể đồng bộ "$name" vào tourist_place '
           '(bản ghi #${index + 1}/${places.length}). '
-          'Kiểm tra schema và quyền SELECT/INSERT/UPDATE '
-          'của tài khoản $user trên $database.',
+          'Kiểm tra schema và quyền SELECT/INSERT/UPDATE trên cơ sở dữ liệu.',
         );
         stderr.writeln('Chi tiết lỗi: $error');
         failedPlaces.add(name);

@@ -1,0 +1,800 @@
+[
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "anh/chị cả",
+    "north_word": "anh/chị hai",
+    "central_word": "anh/chị hai",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "bát (ăn cơm)",
+    "north_word": "chén",
+    "central_word": "chén",
+    "south_word": "miền Trung: đọi"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "bẩn",
+    "north_word": "dơ",
+    "central_word": "dơ",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "bố, mẹ",
+    "north_word": "ba, má",
+    "central_word": "ba, má",
+    "south_word": "miền Tây: tía, má"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "béo",
+    "north_word": "mập",
+    "central_word": "mập",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "buồn",
+    "north_word": "nhột",
+    "central_word": "nhột",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "(cái) bút",
+    "north_word": "(cây) viết",
+    "central_word": "(cây) viết",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "ca, cốc, chén, ly, tách",
+    "north_word": "ly",
+    "central_word": "ly",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "(cây, cá) cảnh",
+    "north_word": "(cây, cá) kiểng",
+    "central_word": "(cây, cá) kiểng",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "cân",
+    "north_word": "ký",
+    "central_word": "ký",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "chăn",
+    "north_word": "mền",
+    "central_word": "mền",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "chần",
+    "north_word": "nhúng trụng",
+    "central_word": "nhúng trụng",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "con giun",
+    "north_word": "con trùn",
+    "central_word": "con trùn",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "cốc đá",
+    "north_word": "tẩy",
+    "central_word": "tẩy",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "dĩa",
+    "north_word": "nĩa",
+    "central_word": "nĩa",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "dùng",
+    "north_word": "xài",
+    "central_word": "xài",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "đắt (tiền)",
+    "north_word": "mắc (tiền)",
+    "central_word": "mắc (tiền)",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "đĩa",
+    "north_word": "dĩa",
+    "central_word": "dĩa",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "đón",
+    "north_word": "rước",
+    "central_word": "rước",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "đỗ (đồ ăn, thi cử, xe)",
+    "north_word": "đậu (đồ ăn, thi cử, xe)",
+    "central_word": "đậu (đồ ăn, thi cử, xe)",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "gầy",
+    "north_word": "ốm",
+    "central_word": "ốm",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "hoa",
+    "north_word": "bông",
+    "central_word": "bông",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "hoa râm bụt",
+    "north_word": "bông bụp",
+    "central_word": "bông bụp",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "hỏng",
+    "north_word": "hư",
+    "central_word": "hư",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "kiêu",
+    "north_word": "chảnh",
+    "central_word": "chảnh",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "kim cương",
+    "north_word": "hột xoàn",
+    "central_word": "hột xoàn",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "kính",
+    "north_word": "kiếng",
+    "central_word": "kiếng",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "(bàn) là",
+    "north_word": "(bàn) ủi",
+    "central_word": "(bàn) ủi",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "lốp xe",
+    "north_word": "vỏ xe",
+    "central_word": "vỏ xe",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "màn",
+    "north_word": "mùng",
+    "central_word": "mùng",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "mặc cả",
+    "north_word": "trả giá",
+    "central_word": "trả giá",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "mắng",
+    "north_word": "la/rủa",
+    "central_word": "la/rủa",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "mất điện",
+    "north_word": "cúp điện",
+    "central_word": "cúp điện",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "miến",
+    "north_word": "bún tàu",
+    "central_word": "bún tàu",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "mộc nhĩ",
+    "north_word": "nấm mèo",
+    "central_word": "nấm mèo",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "mũ",
+    "north_word": "nón nón",
+    "central_word": "nón nón",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "muôi",
+    "north_word": "vá",
+    "central_word": "vá",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "muộn",
+    "north_word": "trễ",
+    "central_word": "trễ",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "(thắp) nến",
+    "north_word": "(đốt) đèn cầy",
+    "central_word": "(đốt) đèn cầy",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "ngan (sao)",
+    "north_word": "vịt xiêm (sao)",
+    "central_word": "vịt xiêm (sao)",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "ngõ, ngách",
+    "north_word": "hẻm",
+    "central_word": "hẻm",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "ngượng/xấu hổ",
+    "north_word": "quê",
+    "central_word": "quê",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "nhà quê/quê mùa",
+    "north_word": "hai lúa",
+    "central_word": "hai lúa",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "nhảm nhí",
+    "north_word": "tào lao",
+    "central_word": "tào lao",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "nhanh",
+    "north_word": "lẹ",
+    "central_word": "lẹ",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "nói khoác/phét",
+    "north_word": "nói xạo",
+    "central_word": "nói xạo",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "(buồn) nôn",
+    "north_word": "(mắc) ói",
+    "central_word": "(mắc) ói",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "nước hoa",
+    "north_word": "dầu thơm",
+    "central_word": "dầu thơm",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "ô",
+    "north_word": "dù",
+    "central_word": "dù",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "ốm",
+    "north_word": "bệnh/bịnh",
+    "central_word": "bệnh/bịnh",
+    "south_word": "miền Trung: đau"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "ông/bà nội, ông/bà ngoại",
+    "north_word": "nội, ngoại",
+    "central_word": "nội, ngoại",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "(hãm) phanh",
+    "north_word": "(đạp) thắng",
+    "central_word": "(đạp) thắng",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "quan tài/áo quan",
+    "north_word": "hòm",
+    "central_word": "hòm",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "rẽ",
+    "north_word": "quẹo",
+    "central_word": "quẹo",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "say",
+    "north_word": "xỉn",
+    "central_word": "xỉn",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "tắc đường",
+    "north_word": "kẹt xe",
+    "central_word": "kẹt xe",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "tất",
+    "north_word": "vớ",
+    "central_word": "vớ",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "tầng 1, tầng 2, tầng 3",
+    "north_word": "tầng trệt, lầu 1, lầu 2",
+    "central_word": "tầng trệt, lầu 1, lầu 2",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "thanh toán",
+    "north_word": "tính tiền",
+    "central_word": "tính tiền",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "thằn lằn",
+    "north_word": "rắn mối",
+    "central_word": "rắn mối",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "thìa",
+    "north_word": "muỗng",
+    "central_word": "muỗng",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "(bì, viết) thư",
+    "north_word": "(bì, viết) thơ",
+    "central_word": "(bì, viết) thơ",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "to",
+    "north_word": "bự",
+    "central_word": "bự",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "(thi) trượt",
+    "north_word": "(thi) rớt",
+    "central_word": "(thi) rớt",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "vào",
+    "north_word": "vô",
+    "central_word": "vô",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "ví",
+    "north_word": "bóp",
+    "central_word": "bóp",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "vồ",
+    "north_word": "chụp",
+    "central_word": "chụp",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "vỡ",
+    "north_word": "bể",
+    "central_word": "bể",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "xe máy",
+    "north_word": "hông-đa",
+    "central_word": "hông-đa",
+    "south_word": ""
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Lạc",
+    "north_word": "Đậu phụng, đậu lạc",
+    "central_word": "Đậu phụng, đậu lạc",
+    "south_word": "Đậu phộng"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Bánh đa",
+    "north_word": "Bánh tráng",
+    "central_word": "Bánh tráng",
+    "south_word": "Bánh tráng"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Vừng",
+    "north_word": "Vừng, mè",
+    "central_word": "Vừng, mè",
+    "south_word": "Mè"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Quả dứa",
+    "north_word": "Quả gai",
+    "central_word": "Quả gai",
+    "south_word": "Trái thơm"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Bánh cuốn",
+    "north_word": "Bánh mướt, bánh ướt, bánh cuốn",
+    "central_word": "Bánh mướt, bánh ướt, bánh cuốn",
+    "south_word": "Bánh ướt"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Nem rán",
+    "north_word": "Ram, cuốn",
+    "central_word": "Ram, cuốn",
+    "south_word": "Chả giò"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Hồng xiêm",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Sa-pô-chê"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Quả trứng gà",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Lê ki ma"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Quả roi",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Trái mận"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Quả mận",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Trái táo (mận Bắc)"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Ngô",
+    "north_word": "Bắp, ngô",
+    "central_word": "Bắp, ngô",
+    "south_word": "Bắp"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Mướp đắng",
+    "north_word": "Mướp đắng",
+    "central_word": "Mướp đắng",
+    "south_word": "Khổ qua"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Rau cải cúc",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Rau tần ô"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Ruốc",
+    "north_word": "Chà bông, ruốc",
+    "central_word": "Chà bông, ruốc",
+    "south_word": "Chà bông"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Giò lụa",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Chả lụa"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Củ sắn",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Khoai mỳ"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Củ đậu",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Củ sắn (sắn nước)"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Cây dọc mùng",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Bạc hà"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Rau mùi ta",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Ngò"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Rau mùi tàu",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Ngò gai"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Củ mã thầy",
+    "north_word": "Củ năng",
+    "central_word": "Củ năng",
+    "south_word": "Củ năng"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Kem caramel",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Bánh flan"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Trứng gà, trứng vịt",
+    "north_word": "Trứng gà, trứng vịt",
+    "central_word": "Trứng gà, trứng vịt",
+    "south_word": "Hột gà, hột vịt"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Váng đậu",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Tàu hũ ky"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Đậu phụ, tào phớ",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Đậu hũ, tàu hũ"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Dạ dày (bò, heo)",
+    "north_word": "Cổ hũ, dạ dày",
+    "central_word": "Cổ hũ, dạ dày",
+    "south_word": "Bao tử"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Thịt bê",
+    "north_word": "Thịt me",
+    "central_word": "Thịt me",
+    "south_word": "Thịt bê"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Cá quả",
+    "north_word": "Cá tràu",
+    "central_word": "Cá tràu",
+    "south_word": "Cá lóc"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Hoa lơ",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Bông cải"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Miến",
+    "north_word": "Miến",
+    "central_word": "Miến",
+    "south_word": "Bún tàu"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Khoai sọ",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Khoai môn"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Khoai môn",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Khoai môn cao"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Mộc nhĩ",
+    "north_word": "Mộc nhĩ, nấm mèo",
+    "central_word": "Mộc nhĩ, nấm mèo",
+    "south_word": "Nấm mèo"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Thạch",
+    "north_word": "Sương sa, đông sương",
+    "central_word": "Sương sa, đông sương",
+    "south_word": "Sương sa"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Quả quất",
+    "north_word": "Quả quất",
+    "central_word": "Quả quất",
+    "south_word": "Trái tắc"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Cải xoong",
+    "north_word": "Xà lách xoong",
+    "central_word": "Xà lách xoong",
+    "south_word": "Xà lách xoong"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Rau rút",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Rau nhút"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Lá nếp",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Lá dứa"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Quả na",
+    "north_word": "Mãng cầu",
+    "central_word": "Mãng cầu",
+    "south_word": "Mãng cầu"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Bóng bì",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Da heo phồng"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Nem chạo",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Bì"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Nộm",
+    "north_word": "",
+    "central_word": "",
+    "south_word": "Gỏi"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Sữa chua",
+    "north_word": "Ya - ua",
+    "central_word": "Ya - ua",
+    "south_word": "Ya - ua"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Gạo nếp",
+    "north_word": "Nếp",
+    "central_word": "Nếp",
+    "south_word": "Nếp"
+  },
+  {
+    "category": "Phương ngữ 3 miền",
+    "meaning": "Xì dầu",
+    "north_word": "Nước tương",
+    "central_word": "Nước tương",
+    "south_word": ""
+  }
+]

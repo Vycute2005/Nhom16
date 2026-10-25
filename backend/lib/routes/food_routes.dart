@@ -50,10 +50,14 @@ class FoodRoutes {
       final data = jsonDecode(body);
 
       await repository.create(
-        id: data['id'],
-        name: data['name'],
-        description: data['description'],
-        imageUrl: data['image_url'],
+        category: data['category']?.toString() ?? '',
+        region: data['region']?.toString() ?? '',
+        province: data['province']?.toString() ?? '',
+        name: data['name']?.toString() ?? '',
+        description: data['description']?.toString() ?? '',
+        culturalStory: data['cultural_story']?.toString() ?? '',
+        priceRange: data['price_range']?.toString() ?? '',
+        imageUrl: data['image_url']?.toString() ?? '',
       );
 
       return Response(
@@ -86,9 +90,14 @@ class FoodRoutes {
 
       await repository.update(
         id: id,
-        name: data['name'],
-        description: data['description'],
-        imageUrl: data['image_url'],
+        category: data['category']?.toString() ?? '',
+        region: data['region']?.toString() ?? '',
+        province: data['province']?.toString() ?? '',
+        name: data['name']?.toString() ?? '',
+        description: data['description']?.toString() ?? '',
+        culturalStory: data['cultural_story']?.toString() ?? '',
+        priceRange: data['price_range']?.toString() ?? '',
+        imageUrl: data['image_url']?.toString() ?? '',
       );
 
       return Response.ok(

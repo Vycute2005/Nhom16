@@ -1,6 +1,8 @@
-import 'package:flutter/material.dart';
+import 'package:hcm_explorer/widgets/app_ui.dart';
 import '../models/food.dart';
 import '../models/restaurant.dart';
+import '../services/favorites_store.dart';
+import '../widgets/favorite_button.dart';
 import '../widgets/app_image.dart';
 import 'restaurant_map_screen.dart';
 
@@ -19,6 +21,9 @@ class RestaurantDetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(restaurant.name),
+        actions: [
+          FavoriteButton(entry: FavoriteEntry.forRestaurant(restaurant)),
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -36,7 +41,7 @@ class RestaurantDetailScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
                 child: Text(
-                  'Representative photo · not this branch',
+                  'Ảnh minh họa · có thể không phải chi nhánh này',
                   style: TextStyle(
                     color: Colors.grey.shade600,
                     fontStyle: FontStyle.italic,
@@ -56,7 +61,7 @@ class RestaurantDetailScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 18),
                   const Text(
-                    'Specialty',
+                    'Đặc sản',
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
@@ -66,7 +71,7 @@ class RestaurantDetailScreen extends StatelessWidget {
                   Text(food.name),
                   const SizedBox(height: 18),
                   const Text(
-                    'Address',
+                    'Địa chỉ',
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
@@ -77,7 +82,7 @@ class RestaurantDetailScreen extends StatelessWidget {
                   if (restaurant.openingHours.isNotEmpty) ...[
                     const SizedBox(height: 18),
                     const Text(
-                      'Opening hours',
+                      'Giờ mở cửa',
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
@@ -86,7 +91,7 @@ class RestaurantDetailScreen extends StatelessWidget {
                     const SizedBox(height: 5),
                     Text(
                       restaurant.openingHoursIsEstimate
-                          ? '${restaurant.openingHours} (estimated; verify with the branch)'
+                          ? '${restaurant.openingHours} (${AppTranslations.translate('giờ ước tính; vui lòng xác nhận với chi nhánh')})'
                           : restaurant.openingHours,
                     ),
                   ],
@@ -95,7 +100,7 @@ class RestaurantDetailScreen extends StatelessWidget {
                     width: double.infinity,
                     child: ElevatedButton.icon(
                       icon: const Icon(Icons.map),
-                      label: const Text('View on Map'),
+                      label: const Text('Xem trên bản đồ'),
                       onPressed: () {
                         Navigator.push(
                           context,

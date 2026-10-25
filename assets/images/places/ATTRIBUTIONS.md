@@ -5,6 +5,7 @@ license and source shown below apply to each individual photo.
 
 | Record ID | Photo / author | License | Source |
 | --- | --- | --- | --- |
+| `dinh-doc-lap` | Independence Palace, Ho Chi Minh City — Trung geo | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Independence_Palace,_Ho_Chi_Minh_City.jpg) |
 | `vuon-tao-dan` | Parque Tao Dan — Diego Delso | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Parque_Tao_Dan,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-15,_DD_01.JPG) |
 | `pho-di-bo-nguyen-hue` | Nguyen Hue Pedestrian Boulevard — Terrazzo | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nguyen_Hue_Pedestrian_Boulevard_(37021598281).jpg) |
 | `nha-hat-thanh-pho-ho-chi-minh` | Ho Chi Minh City Opera House — Yun Huang Yong | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Opera_House_(3157990551).jpg) |

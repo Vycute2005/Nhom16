@@ -1,0 +1,229 @@
+[
+  {
+    "category": "Đặc sản vùng miền",
+    "region": "Miền Nam",
+    "province": "Sóc Trăng",
+    "name": "Bánh Pía Sóc Trăng",
+    "description": "Vỏ bánh nhiều lớp xốp dẻo, nhân đậu xanh sầu riêng béo ngậy quyện lòng đỏ trứng muối.",
+    "cultural_story": "Món quà đặc sản mang đậm dấu ấn giao thoa văn hóa Kinh - Hoa - Khmer xứ Nam Bộ.",
+    "price_range": "50.000 - 90.000 VNĐ / hộp",
+    "image_url": "https://www.huongnghiepaau.com/wp-content/uploads/2018/07/ad8de5425148aa32777950338f4d11f6.jpg",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Bánh Pía Tân Huê Viên",
+        "address": "Quy Lộ 1A, Châu Thành, Sóc Trăng",
+        "price": "60.000 - 110.000 VNĐ",
+        "rating": "4.8/5",
+        "open_hours": "07:00 - 21:00"
+      },
+      {
+        "spot_name": "Bánh Pía Lương Xương",
+        "address": "42 Nguyễn Huệ, TP. Sóc Trăng",
+        "price": "55.000 - 95.000 VNĐ",
+        "rating": "4.6/5",
+        "open_hours": "06:30 - 20:30"
+      }
+    ]
+  },
+  {
+    "category": "Đặc sản vùng miền",
+    "region": "Miền Nam",
+    "province": "Bến Tre",
+    "name": "Kẹo Dừa Bến Tre",
+    "description": "Kẹo dừa béo ngậy, dẻo ngọt làm từ nước cốt dừa tươi nguyên chất xứ dừa.",
+    "cultural_story": "Nghề làm kẹo dừa truyền thống trứ danh trở thành nét đẹp văn hóa thủ công xứ Bến Tre.",
+    "price_range": "30.000 - 60.000 VNĐ / hộp",
+    "image_url": "https://galatourist.com/pic/blog/images/keodua.png",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Kẹo Dừa Thanh Long",
+        "address": "212B Đại Lộ Đồng Khởi, Bến Tre",
+        "price": "35.000 - 60.000 VNĐ",
+        "rating": "4.7/5",
+        "open_hours": "07:00 - 21:00"
+      }
+    ]
+  },
+  {
+    "category": "Đặc sản vùng miền",
+    "region": "Miền Nam",
+    "province": "Cà Mau",
+    "name": "Lẩu Mắm U Minh",
+    "description": "Nước lẩu nấu từ mắm sặc đậm đà, ăn kèm cá đồng, lươn và hơn 20 loại rau dại vùng ngập nước U Minh.",
+    "cultural_story": "Đặc sản sông nước đại diện cho sự phong phú và hào sảng của thiên nhiên miền Tây Nam Bộ.",
+    "price_range": "150.000 - 300.000 VNĐ",
+    "image_url": "https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/05_2021/lau-mam-ca-mau-min.jpg",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Lẩu Mắm Đồng Quê Cà Mau",
+        "address": "91A Lý Thường Kiệt, Phường 6, Cà Mau",
+        "price": "180.000 - 280.000 VNĐ",
+        "rating": "4.7/5",
+        "open_hours": "10:00 - 22:00"
+      }
+    ]
+  },
+  {
+    "category": "Đặc sản vùng miền",
+    "region": "Miền Trung",
+    "province": "Bình Định",
+    "name": "Tré Bình Định",
+    "description": "Tré làm từ thịt đầu heo, tai heo trộn thính gạo, riềng tỏi gói trong rơm khô rụm.",
+    "cultural_story": "Món nhắm đặc sản xứ Nẫu không thể thiếu trên bàn tiếp khách quý của người dân miền Trung.",
+    "price_range": "35.000 - 65.000 VNĐ / cây",
+    "image_url": "https://file.hstatic.net/200000735203/article/tre-binh-dinh_9e6715d9d5b940a883bf7ad7e2d36d16.jpg",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Tré Bà Xinh Quy Nhơn",
+        "address": "14 Trần Bình Trọng, TP. Quy Nhơn",
+        "price": "40.000 - 60.000 VNĐ",
+        "rating": "4.8/5",
+        "open_hours": "07:00 - 21:00"
+      }
+    ]
+  },
+  {
+    "category": "Đặc sản vùng miền",
+    "region": "Miền Trung",
+    "province": "Khánh Hòa",
+    "name": "Bánh Căn Nha Trang",
+    "description": "Bánh đúc khuôn đất nung giòn đáy, nhân tôm mực tươi ngon ăn cùng xốt mắm nêm xíu mại.",
+    "cultural_story": "Món ăn đặc sản mộc mạc lưu giữ nét ẩm thực bình dân phố biển Nha Trang.",
+    "price_range": "35.000 - 60.000 VNĐ",
+    "image_url": "https://topnhatrang.com.vn/uploads/2024/02/26/banh-can-co-lan_033121058.jpg",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Bánh Căn Út Nổi",
+        "address": "8 Tô Hiến Thành, TP. Nha Trang",
+        "price": "40.000 - 65.000 VNĐ",
+        "rating": "4.6/5",
+        "open_hours": "15:00 - 21:00"
+      }
+    ]
+  },
+  {
+    "category": "Đặc sản vùng miền",
+    "region": "Miền Bắc",
+    "province": "Quảng Ninh",
+    "name": "Chả Mực Hạ Long",
+    "description": "Mực mai tươi giã tay thủ công chiên vàng giòn, thơm nức lòng, ăn kèm xôi trắng hoặc bánh cuốn.",
+    "cultural_story": "Đặc sản trứ danh xứ biển Quảng Ninh, thuộc top 50 món ăn đặc sản nổi tiếng Việt Nam.",
+    "price_range": "120.000 - 250.000 VNĐ",
+    "image_url": "https://dulichvietnam.com.vn/vnt_upload/news/06_2024/banh_cuon_cha_muc_ha_long_6.jpg",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Chả Mực Thoan Hạ Long",
+        "address": "Kiot 36 Chợ Hạ Long 1, Quảng Ninh",
+        "price": "180.000 - 250.000 VNĐ",
+        "rating": "4.9/5",
+        "open_hours": "06:00 - 18:00"
+      }
+    ]
+  },
+  {
+    "category": "Đặc sản vùng miền",
+    "region": "Miền Bắc",
+    "province": "Hà Nội",
+    "name": "Cốm Làng Vòng",
+    "description": "Hạt cốm xanh dẻo thơm thoảng mùi lá sen thanh khiết, thức quà thu đắt giá xứ Hà Thành.",
+    "cultural_story": "Nét văn hóa quà quê tinh tế gắn liền với mùa thu Hà Nội qua nhiều thế hệ.",
+    "price_range": "50.000 - 100.000 VNĐ / gói",
+    "image_url": "https://s-aicmscdn.vietnamhoinhap.vn/vnhn-media/20/10/9/com-lang-vong.jpg",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Cốm Vòng Huy Linh",
+        "address": "Thôn Vòng, Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
+        "price": "60.000 - 100.000 VNĐ",
+        "rating": "4.8/5",
+        "open_hours": "06:30 - 20:30"
+      }
+    ]
+  },
+  {
+    "category": "Món ăn đường phố",
+    "region": "Miền Nam",
+    "province": "TP. Hồ Chí Minh",
+    "name": "Bánh Mì Sài Gòn",
+    "description": "Vỏ giòn rụm kẹp pate béo ngậy, chả lụa, thịt nguội, đồ chua xịt nước tương đậm đà.",
+    "cultural_story": "Vinh danh là món ăn đường phố ngon nhất thế giới, biểu tượng nhịp sống nhanh Sài Gòn.",
+    "price_range": "20.000 - 65.000 VNĐ",
+    "image_url": "assets/images/foods/banh-mi-sai-gon.jpg",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Bánh Mì Huỳnh Hoa",
+        "address": "26 Lê Thị Riêng, Quận 1, TP.HCM",
+        "price": "60.000 - 68.000 VNĐ",
+        "rating": "4.8/5",
+        "open_hours": "11:00 - 21:00"
+      }
+    ]
+  },
+  {
+    "category": "Món ăn đường phố",
+    "region": "Miền Nam",
+    "province": "TP. Hồ Chí Minh",
+    "name": "Cơm Tấm Sài Gòn",
+    "description": "Cơm tấm xốp mềm ăn cùng sườn nướng mỡ hành nướng lò than, chả trứng, bì heo và mắm kẹo.",
+    "cultural_story": "Món ăn bình dân kinh điển của người lao động, trở thành linh hồn ẩm thực phố phường Sài Gòn.",
+    "price_range": "40.000 - 110.000 VNĐ",
+    "image_url": "assets/images/foods/com-tam-sai-gon.jpg",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Cơm Tấm Ba Há",
+        "address": "389 Hưng Phú, Quận 8, TP.HCM",
+        "price": "45.000 - 75.000 VNĐ",
+        "rating": "4.7/5",
+        "open_hours": "16:00 - 20:30"
+      }
+    ]
+  },
+  {
+    "category": "Di sản ẩm thực",
+    "region": "Miền Bắc",
+    "province": "Hà Nội",
+    "name": "Phở Bò Hà Nội",
+    "description": "Nước dùng trong, ngọt thanh ninh từ xương ống bò, bánh phở dẻo mềm ăn kèm thịt bò tái/nạm.",
+    "cultural_story": "Món ăn biểu tượng quốc hồn quốc túy của Việt Nam, đại diện cho sự tinh tế ẩm thực Tràng An.",
+    "price_range": "45.000 - 90.000 VNĐ",
+    "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/94/9f/7d/caption.jpg?h=800&s=1&w=800",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Phở Thìn Lò Đúc",
+        "address": "13 Lò Đúc, Quận Hai Bà Trưng, Hà Nội",
+        "price": "65.000 - 90.000 VNĐ",
+        "rating": "4.6/5",
+        "open_hours": "06:00 - 20:30"
+      }
+    ]
+  },
+  {
+    "category": "Món ăn ngày Tết",
+    "region": "Miền Nam",
+    "province": "Cần Thơ",
+    "name": "Bánh Tét Miền Tây",
+    "description": "Bánh gói hình trụ tròn bằng lá chuối, vỏ nếp xào nước cốt dừa dẻo béo nhân đậu xanh thịt mỡ.",
+    "cultural_story": "Món bánh không thể thiếu trong mâm cỗ cúng gia tiên dịp Tết Nguyên Đán của người dân Nam Bộ.",
+    "price_range": "70.000 - 120.000 VNĐ / đòn",
+    "image_url": "https://catba.tours/wp-content/uploads/2022/11/banh-tet.jpg",
+    "source": "https://toplist.vn/",
+    "spots": [
+      {
+        "spot_name": "Bánh Tét Lá Cẩm Tư Đẹp",
+        "address": "102 An Dương Vương, Cần Thơ",
+        "price": "80.000 - 120.000 VNĐ",
+        "rating": "4.8/5",
+        "open_hours": "06:00 - 21:00"
+      }
+    ]
+  }
+]

@@ -6,11 +6,16 @@ import '../config/api_config.dart';
 import '../models/tourist_place.dart';
 
 class TouristPlaceService {
-  Future<List<TouristPlace>> getTouristPlaces() async {
+  Future<List<TouristPlace>> getTouristPlaces({
+    List<String> provinces = const [],
+  }) async {
+    final uri = Uri.parse('${ApiConfig.baseUrl}/api/tourist-places').replace(
+      queryParameters: {
+        if (provinces.isNotEmpty) 'province': provinces,
+      },
+    );
     final response = await http.get(
-      Uri.parse(
-        '${ApiConfig.baseUrl}/api/tourist-places',
-      ),
+      uri,
     );
 
     if (response.statusCode != 200) {
@@ -19,21 +24,18 @@ class TouristPlaceService {
       );
     }
 
-    final List<dynamic> jsonList =
-    jsonDecode(response.body);
+    final List<dynamic> jsonList = jsonDecode(response.body);
 
-    return jsonList
-        .map((json) => TouristPlace.fromJson(json))
-        .toList();
+    return jsonList.map((json) => TouristPlace.fromJson(json)).toList();
   }
 
   Future<void> createTouristPlace({
-    required String id,
     required String name,
     required String imageUrl,
     required String history,
     required String culture,
     required String address,
+    required String province,
     required double latitude,
     required double longitude,
   }) async {
@@ -45,12 +47,12 @@ class TouristPlaceService {
         'Content-Type': 'application/json',
       },
       body: jsonEncode({
-        'id': id,
         'name': name,
         'image_url': imageUrl,
         'history': history,
         'culture': culture,
         'address': address,
+        'province': province,
         'latitude': latitude,
         'longitude': longitude,
       }),
@@ -70,6 +72,7 @@ class TouristPlaceService {
     required String history,
     required String culture,
     required String address,
+    required String province,
     required double latitude,
     required double longitude,
   }) async {
@@ -86,6 +89,7 @@ class TouristPlaceService {
         'history': history,
         'culture': culture,
         'address': address,
+        'province': province,
         'latitude': latitude,
         'longitude': longitude,
       }),

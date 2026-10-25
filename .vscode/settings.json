@@ -1,0 +1,7 @@
+{
+  "dart.flutterRunAdditionalArgs": [
+    "--web-hostname=localhost",
+    "--web-port=7357",
+    "--dart-define=GOOGLE_CLIENT_ID=409118219902-lf23rdn9l3sheeekl9cjod3e2kin6lh5.apps.googleusercontent.com"
+  ]
+}
